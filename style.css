@@ -165,7 +165,7 @@ video {
   overflow: hidden;
   max-width: 80%;
   padding: 0px;
-  margin-top: 15px;
+  margin-top: 15px
 }
 
 .name{
@@ -184,10 +184,23 @@ header{
   max-width: 2045px;
 }
 
+
 .information{
+  margin: 0px auto;
   margin-right: 15px;
   margin-left: 15px;
-  padding: 0px auto;
+  padding: 7.5px;
+  border-radius: 7.5px;
+}
+
+.channel .information{
+  background-color: red;
+}
+
+.information h5{
+  margin: auto;
+  padding: 0px;
+  color: white;
 }
 
 #indextext{
@@ -198,7 +211,7 @@ header{
 }
 
 .handle{
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   color: grey;
 }
@@ -213,6 +226,7 @@ header{
   max-width: 80%;
   padding: 0px;
   align-items: center;
+  flex-direction: row;
 }
 
 .small{
@@ -267,7 +281,7 @@ header{
   }
 
   .small{
-    width: 50px;
+    width: 65px;
     margin-bottom: 7.5px;
     margin-top: 7.5px;
   }
