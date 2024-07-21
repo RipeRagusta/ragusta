@@ -192,14 +192,14 @@ header{
 
 .information{
   margin: 0px auto;
-  margin-right: 15px;
-  margin-left: 15px;
-  padding: 7.5px;
+  margin-right: 17.5px;
+  margin-left: 17.5px;
   border-radius: 7.5px;
 }
 
 .channel .information{
   background-color: red;
+  padding: 7.5px;
 }
 
 .information h5{
