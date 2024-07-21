@@ -14,6 +14,8 @@ body{
 
 .bodyhang{
   overflow: hidden;
+  margin:0px;
+  padding: 0px;
 }
 
 .page{
@@ -86,7 +88,8 @@ hr{
 }
 
 footer{
-  margin-bottom: -132px;width: 110%;
+  margin-bottom: -132px;
+  width: 110%;
   height: auto;
   max-height: 9999px;
   margin-left: -5%;
@@ -97,7 +100,7 @@ footer{
   display: inline-block;
   transform: perspective(3000px) rotateX(60deg);
   overflow: hidden;
-  margin-top: -151px;/*-151px*/
+  margin-top: -144.5px;
   transform-origin: center;
  }
 
@@ -111,6 +114,7 @@ footer{
 
 #credits{
   height: 540px;
+  overflow: hidden;
 }
 
 .footer-text{
@@ -266,7 +270,6 @@ header{
 @media only screen and (max-width: 968px){
   .container{
     grid-template-columns: 1fr;
-    /*grid-template-rows: .4fr .6fr; */
     grid-template-areas: 
     "nav"
     "main";
