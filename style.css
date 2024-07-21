@@ -19,8 +19,6 @@ body{
 }
 
 .page{
-  margin-top: 30px;
-  padding: 15px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -34,10 +32,10 @@ body{
 
 nav{
   background-color: rgb(255 255 255 / 100%);
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-radius: 15px;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 nav ul{
@@ -73,22 +71,24 @@ nav a:active{
 }
 
 hr{
-  margin-bottom: 20px;
+  
   border-color: rgb(0 0 0 / 20%);
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
 }
 
  main{
-  padding: 15px;
+  padding: 20px;
   background-color: rgb(255 255 255 / 100%);
   border-radius: 15px;
-  margin: 10px  10px  10px 25px;
+  margin: 25px;
   min-height: 85vh;
   overflow: hidden;
   text-overflow: clip;
 }
 
 footer{
-  margin-bottom: -132px;
   width: 110%;
   height: auto;
   max-height: 9999px;
@@ -100,15 +100,14 @@ footer{
   display: inline-block;
   transform: perspective(3000px) rotateX(60deg);
   overflow: hidden;
-  margin-top: -144.5px;
+  margin-bottom: -132px;
+  margin-top: -144px;
   transform-origin: center;
  }
 
 .hero{
   border-radius: 50%;
-  margin-bottom: 10px;
-  margin-top: 2.5px;
-  margin-left: 2.5px;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -138,7 +137,6 @@ footer{
   text-decoration: none;
   margin: 0px auto;
   margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .texting:hover{
@@ -167,7 +165,6 @@ video{
   margin: 0 auto;
   width: 80%;
   height: auto;
-  margin-top: 5px;
 }
 
 .title{
@@ -196,14 +193,17 @@ header{
 
 .information{
   margin: 0px auto;
-  margin-right: 17.5px;
-  margin-left: 17.5px;
-  border-radius: 7.5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  
 }
 
 .channel .information{
   background-color: red;
   padding: 7.5px;
+  border-radius: 7.5px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .information h5{
@@ -226,7 +226,8 @@ header{
 }
 
 #splitter{
-  margin: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .channel{
@@ -257,7 +258,6 @@ header{
   height: auto;
   background-color: #f1f1f1;
   border-radius: 10px;
-  margin-bottom: 5px;
   overflow: hidden;
 }
 
@@ -281,13 +281,11 @@ header{
   nav{
     background-color: white;
     z-index: 2;
-    margin-right: 10px;
+    margin: 15px 15px 0px 15px;
   }
   
   main{
-    margin: 10px  10px  10px 10px;
-    margin-top: 15px;
-    padding: 15px;
+    margin: 15px;
   }
 
   .small{
@@ -295,7 +293,10 @@ header{
     margin-bottom: 7.5px;
     margin-top: 7.5px;
   }
-
+  .channel .information{
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+  }
   .hero{
      width: 125px;
      height: auto;
