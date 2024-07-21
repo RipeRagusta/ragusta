@@ -131,6 +131,8 @@ footer{
   white-space: nowrap;
   max-width: 275px;
   text-decoration: none;
+  margin: 0px auto;
+  margin-top: 5px;
 }
 
 .texting:hover{
