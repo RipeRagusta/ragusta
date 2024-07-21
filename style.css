@@ -81,6 +81,8 @@ hr{
   border-radius: 15px;
   margin: 10px  10px  10px 25px;
   min-height: 85vh;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 footer{
@@ -152,7 +154,7 @@ footer{
   font-weight: bold;
 }
 
-video {
+video{
   display: block;
   margin: 0 auto;
   width: 80%;
@@ -165,7 +167,7 @@ video {
   overflow: hidden;
   max-width: 80%;
   padding: 0px;
-  margin-top: 15px
+  margin-top: 15px;
 }
 
 .name{
@@ -183,7 +185,6 @@ header{
   margin: 0px auto;
   max-width: 2045px;
 }
-
 
 .information{
   margin: 0px auto;
@@ -248,6 +249,7 @@ header{
   background-color: #f1f1f1;
   border-radius: 10px;
   margin-bottom: 5px;
+  overflow: hidden;
 }
 
 .description .details{
