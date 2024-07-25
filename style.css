@@ -71,9 +71,9 @@ nav a:active{
 }
 
 hr{
-  
   border-color: rgb(0 0 0 / 20%);
   margin: 0px;
+  margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px;
 }
@@ -107,7 +107,6 @@ footer{
 
 .hero{
   border-radius: 50%;
-  margin-bottom: 20px;
   display: block;
 }
 
@@ -196,7 +195,6 @@ header{
   margin: 0px auto;
   margin-right: 20px;
   margin-left: 20px;
-  
 }
 
 .channel .information{
@@ -220,8 +218,9 @@ header{
   padding-bottom: 30px;
 }
 
-.handle{
+#handle{
   margin: 0px auto;
+  margin-top: 15px;
   padding: 0px;
   color: grey;
 }
@@ -294,10 +293,12 @@ header{
     margin-bottom: 10px;
     margin-top: 10px;
   }
+
   .channel .information{
     margin-right: 10px;
     margin-left: 10px;
   }
+  
   .hero{
      width: 125px;
      height: auto;
