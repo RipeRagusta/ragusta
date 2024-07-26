@@ -165,6 +165,8 @@ video{
   margin: 0 auto;
   width: 80%;
   height: auto;
+  max-height: calc(100vh - 90px);
+  background-color: black;
 }
 
 .title{
@@ -323,6 +325,7 @@ header{
   video{
     width: 100%;
     margin-top: 0px;
+    max-height: 100%;
   }
 
   .title{
