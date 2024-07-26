@@ -13,7 +13,7 @@ body{
 }
 
 .bodyhang{
-  overflow: hidden;
+  overflow: clip;
   margin:0px;
   padding: 0px;
 }
@@ -27,18 +27,21 @@ body{
   display: grid;
   grid-template-columns: .15fr .85fr;
   grid-template-areas: 
-  "nav  main"
+  "nav  main";
 }
 
 nav{
-  background-color: rgb(255 255 255 / 100%);
-  margin-left: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  position: relative;
+  margin-left: calc(5px + 1vw);
+  margin-top: calc(5px + 1vw);
+  margin-bottom: calc(5px + 1vw);
   border-radius: 15px;
+  background-color: rgb(255 255 255 / 100%);
 }
 
 nav ul{
+  position: sticky;
+  top: 15px;
   font-size: 1.1em;
   list-style-type:none;
   margin: 0px;
@@ -82,7 +85,7 @@ hr{
   padding: 20px;
   background-color: rgb(255 255 255 / 100%);
   border-radius: 15px;
-  margin: 25px;
+  margin: calc(5px + 1vw);
   min-height: 85vh;
   overflow: hidden;
   text-overflow: clip;
@@ -101,7 +104,7 @@ footer{
   transform: perspective(3000px) rotateX(60deg);
   overflow: hidden;
   margin-bottom: -132px;
-  margin-top: -144px;
+  margin-top: -145px;
   transform-origin: center;
  }
 
@@ -277,6 +280,7 @@ header{
     grid-template-areas: 
     "nav"
     "main";
+  }
 
   #splitter{
     display: none;
