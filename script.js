@@ -23,7 +23,7 @@ function removePhoto()
 
 function logoOne(){
 	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) 
-		|| (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform)) 
+		|| (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform)) == true
 		|| window.innerWidth >= 968)
 	{
     	var x = window.innerWidth / 2;
