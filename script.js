@@ -22,5 +22,4 @@ function preview(number)
 	{
 		document.getElementById("image-" + number).src = "image-" + number + ".jpg";
 	});
-}" + number).src = "image-" + number + ".jpg";
 }
