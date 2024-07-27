@@ -22,9 +22,7 @@ function removePhoto()
 }
 
 function logoOne(){
-	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) 
-		|| (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform)) == true
-		|| window.innerWidth >= 968)
+	if (window.innerWidth >= 968)
 	{
     	var x = window.innerWidth / 2;
 		var mouseX = event.clientX;
@@ -112,7 +110,7 @@ function logoOne(){
     }
 	else
 	{
-		document.getElementById("expanded").style.transform = "translate(-50%, -50%) perspective(3000px)";
+		document.getElementById("expanded").style.transform = "translate(-50%, -50%) perspective(3000px) rotateY(0deg) rotateX(0deg)";
 	}
 
 }
