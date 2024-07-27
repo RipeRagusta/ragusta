@@ -119,7 +119,13 @@ function logoOne(){
 
 function preview(number)
 {
-	document.getElementById("image-" + number).src = "weenwao gif.GIF";
+	setTimeout(() => showGif(number), 1500);
+	
+}
+
+function showGif(passedNumb)
+{
+	document.getElementById("image-" + passedNumb).src = "weenwao gif.GIF";
 }
 
 function reset(number)
