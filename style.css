@@ -291,7 +291,6 @@ header{
   z-index: 87;
   box-shadow: 0 0 200vh 200vh rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
-  border: 1em solid #e4e4e4;
   transition: transform 4s ease 0s;
   transform-origin: 50% center;
   display: none;
@@ -368,9 +367,5 @@ header{
 
   .description{
     width: 100%;
-  }
-
-  #expanded{
-    border: 5px solid #e4e4e4;
   }
 }
