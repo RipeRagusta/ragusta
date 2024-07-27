@@ -117,18 +117,25 @@ function logoOne(){
 
 }
 
+var consitstent = false;
+
 function preview(number)
 {
-	setTimeout(() => showGif(number), 1500);
-	
+	consitstent = true;
+	setTimeout(() => showGif(number), 667);
 }
 
 function showGif(passedNumb)
 {
-	document.getElementById("image-" + passedNumb).src = "weenwao gif.GIF";
+	if(consitstent == true)
+	{
+		document.getElementById("image-" + passedNumb).src = "gif-" + passedNumb + ".GIF";
+	}
+	
 }
 
 function reset(number)
 {
-	document.getElementById("image-19").src = "maxresdefault.jpg";
+	consitstent = false;
+	document.getElementById("image-" + number).src = "image-" + number + ".jpg";
 }
