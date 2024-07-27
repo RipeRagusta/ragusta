@@ -32,9 +32,9 @@ body{
 
 nav{
   position: relative;
-  margin-left: calc(5px + 1vw);
-  margin-top: calc(5px + 1vw);
-  margin-bottom: calc(5px + 1vw);
+  margin-left: calc(6px + 1vw);
+  margin-top: calc(6px + 1vw);
+  margin-bottom: calc(6px + 1vw);
   border-radius: 15px;
   background-color: rgb(255 255 255 / 100%);
 }
@@ -85,7 +85,7 @@ hr{
   padding: 20px;
   background-color: rgb(255 255 255 / 100%);
   border-radius: 15px;
-  margin: calc(5px + 1vw);
+  margin: calc(6px + 1vw);
   min-height: 85vh;
   overflow: hidden;
   text-overflow: clip;
@@ -168,7 +168,7 @@ video{
   margin: 0 auto;
   width: 80%;
   height: auto;
-  max-height: calc(100vh - 90px);
+  max-height: calc(100dvh - (52px + 2vw));
   background-color: black;
 }
 
@@ -273,6 +273,30 @@ header{
   margin: 0px;
 }
 
+#expanded{
+  padding: 0; 
+  margin: 0;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  width: 100vw;
+  object-fit: contain;
+  max-height: 50%;
+  max-width: 90%;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 87;
+  box-shadow: 0 0 200vh 200vh rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1em solid #e4e4e4;
+  transition: transform 4s ease 0s;
+  transform-origin: 50% center;
+  display: none;
+}
+
 /*CSS for Smartphones */
 @media only screen and (max-width: 968px){
   .container{
@@ -330,6 +354,7 @@ header{
   video{
     width: 100%;
     margin-top: 0px;
+    max-height: calc(100dvh - 90px);
   }
 
   .title{
@@ -343,5 +368,9 @@ header{
 
   .description{
     width: 100%;
+  }
+
+  #expanded{
+    border: 5px solid #e4e4e4;
   }
 }
