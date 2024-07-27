@@ -128,10 +128,6 @@ footer{
   width: calc(230px + 5vw);
 }
 
-.thumbnail .image:hover{
-  opacity: 80%;
-}
-
 .texting{
   color: black;
   overflow: hidden;
@@ -271,29 +267,6 @@ header{
 .description .details{
   padding: 10px;
   margin: 0px;
-}
-
-#expanded{
-  padding: 0; 
-  margin: 0;
-  position: fixed;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100vh;
-  width: 100vw;
-  object-fit: contain;
-  max-height: 50%;
-  max-width: 90%;
-  width: auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 87;
-  box-shadow: 0 0 200vh 200vh rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: transform 4s ease 0s;
-  transform-origin: 50% center;
-  display: none;
 }
 
 /*CSS for Smartphones */
