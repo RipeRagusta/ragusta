@@ -16,7 +16,7 @@ function preview(number)
 		{
 			document.getElementById("image-" + number).src = "gif-" + number + ".GIF";
 		}
-	}, 367);
+	}, 500);
 
 	element.addEventListener('mouseout', () => 
 	{
