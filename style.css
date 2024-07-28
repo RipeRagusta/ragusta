@@ -37,7 +37,6 @@ nav{
   margin-bottom: calc(6px + 1vw);
   border-radius: 15px;
   background-color: rgb(255 255 255 / 100%);
-  padding-bottom: 15px;
 }
 
 nav ul{
@@ -47,6 +46,7 @@ nav ul{
   list-style-type:none;
   margin: 0px;
   padding: 0px;
+  margin-bottom: 15px;
 }
 
 nav a{
