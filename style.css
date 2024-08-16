@@ -385,6 +385,10 @@ header{
   }
 
   hr{
-    border-color: #212121;
+    border-color: lightgray;
+  }
+
+  .icon{
+    display: none;
   }
 } 
