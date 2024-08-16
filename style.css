@@ -61,7 +61,7 @@ nav a:link{
 }
 
 nav a:visited{
-  color:darkgrey;
+  color:black;
 }
 
 nav a:hover{
@@ -343,3 +343,48 @@ header{
     width: 100%;
   }
 }
+ 
+@media (prefers-color-scheme: dark) {
+  main{
+    background-color: #121212;
+    color: #fff;
+  }
+
+  nav{
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  nav a:link{
+    color:white;
+  } 
+
+  nav a:visited{
+    color:white;
+  }
+
+  nav a:hover{
+    background-color: #212121;
+    outline: 1px solid #353535;
+  }
+
+  .texting{
+    color: white;
+  }
+
+  .texting:hover{
+    color: white;
+  }
+
+  .texting:active{
+    color:lightgray;
+  }
+  
+  .description{
+    background-color: #212121;
+  }
+
+  hr{
+    border-color: #212121;
+  }
+} 
