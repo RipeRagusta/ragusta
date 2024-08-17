@@ -346,12 +346,12 @@ header{
  
 @media (prefers-color-scheme: dark) {
   main{
-    background-color: #292929;
+    background-color: #212121;
     color: white;
   }
 
   nav{
-    background-color: #292929;
+    background-color: #212121;
     color: white;
   }
   
@@ -381,7 +381,7 @@ header{
   }
   
   .description{
-    background-color: #212121;
+    background-color: #292929;
   }
 
   hr{
