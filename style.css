@@ -94,7 +94,6 @@ hr{
 footer{
   width: 110%;
   height: auto;
-  max-height: 9999px;
   margin-left: -5%;
   position: relative;
   background-image: url("sand.jpg");
