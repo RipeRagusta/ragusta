@@ -94,6 +94,7 @@ hr{
 footer{
   width: 110%;
   height: auto;
+  max-height: 9999px;
   margin-left: -5%;
   position: relative;
   background-image: url("sand.jpg");
@@ -102,8 +103,9 @@ footer{
   display: inline-block;
   transform: perspective(3000px) rotateX(60deg);
   overflow: hidden;
-  margin-bottom: -277px;
-  transform-origin: top;
+  margin-bottom: -132px;
+  margin-top: -145px;
+  transform-origin: center;
  }
 
 .hero{
@@ -118,8 +120,7 @@ footer{
 
 .footer-text{
   text-align: center;
-  padding-top: 190px;
-  font-size: 30px;
+  padding-top: 230px;
 }
 
 .image{
