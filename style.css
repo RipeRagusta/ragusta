@@ -268,7 +268,6 @@ header{
   margin: 0px;
 }
 
-/*CSS for Smartphones */
 @media only screen and (max-width: 968px){
   .container{
     grid-template-columns: 1fr;
