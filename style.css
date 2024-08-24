@@ -345,20 +345,20 @@ header{
 @media (prefers-color-scheme: dark) {
   main{
     background-color: #212121;
-    color: #DDDDDD;
+    color: #e6e6e6;
   }
 
   nav{
     background-color: #212121;
-    color: #DDDDDD;
+    color: #e6e6e6;
   }
   
   nav a:link{
-    color: #DDDDDD;
+    color: #e6e6e6;
   } 
 
   nav a:visited{
-    color: #DDDDDD;
+    color: #e6e6e6;
   }
 
   nav a:hover{
@@ -367,7 +367,7 @@ header{
   }
 
   .texting{
-    color: #DDDDDD;
+    color: #e6e6e6;
   }
 
   .texting:hover{
