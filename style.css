@@ -345,20 +345,20 @@ header{
 @media (prefers-color-scheme: dark) {
   main{
     background-color: #212121;
-    color: white;
+    color: #DDDDDD;
   }
 
   nav{
     background-color: #212121;
-    color: white;
+    color: #DDDDDD;
   }
   
   nav a:link{
-    color: white;
+    color: #DDDDDD;
   } 
 
   nav a:visited{
-    color: white;
+    color: #DDDDDD;
   }
 
   nav a:hover{
@@ -367,15 +367,15 @@ header{
   }
 
   .texting{
-    color: white;
+    color: #DDDDDD;
   }
 
   .texting:hover{
-    color: white;
+    color: #b3b3b3;
   }
 
   .texting:active{
-    color:lightgray;
+    color: #FFFFFF;
   }
   
   .description{
@@ -387,7 +387,7 @@ header{
   }
 
   .icon{
-    filter: invert(1);
+    filter: invert(1) brightness(.87);
   }
 
   body{
@@ -404,6 +404,6 @@ header{
   }
 
   #handle{
-    color: lightgrey;
+    color: #808080;
   }
 } 
