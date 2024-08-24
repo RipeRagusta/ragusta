@@ -387,7 +387,7 @@ header{
   }
 
   .icon{
-    filter: invert(1) brightness(.87);
+    filter: invert(1) brightness(.9);
   }
 
   body{
