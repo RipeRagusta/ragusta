@@ -125,6 +125,7 @@ footer{
 .image{
   height: auto;
   width: calc(230px + 5vw);
+  color: rgb(255 255 255 / 100%);
 }
 
 .texting{
@@ -405,5 +406,9 @@ header{
 
   #handle{
     color: #999999;
+  }
+
+  .image{
+    color: #212121;
   }
 } 
