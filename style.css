@@ -158,6 +158,8 @@ footer{
 
 .date{
   font-weight: bold;
+  margin: 0;
+  padding: 0px;
 }
 
 video{
@@ -266,8 +268,20 @@ header{
 }
 
 .description .details{
-  padding: 10px;
+  padding: 15px;
   margin: 0px;
+}
+
+.lines{
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.read{
+  margin: 0;
+  padding: 0px;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 968px){
@@ -305,19 +319,19 @@ header{
   }
   
   .hero{
-     width: 125px;
-     height: auto;
+    width: 125px;
+    height: auto;
   }
 
   nav ul{
     list-style-type:none;
     text-align: center;
     margin: 0px auto;
-    padding: 5px ;
+    padding: 5px;
   }
 
   nav a{
-    margin:  0px;
+    margin: 0px;
   }
 
   nav li{
