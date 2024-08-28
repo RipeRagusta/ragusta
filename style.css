@@ -110,7 +110,8 @@ footer{
 .hero{
   border-radius: 50%;
   display: block;
-  color: rgb(255 255 255 / 100%);
+  color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 #credits{
@@ -126,7 +127,8 @@ footer{
 .image{
   height: auto;
   width: calc(230px + 5vw);
-  color: rgb(255 255 255 / 100%);
+  color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .texting{
@@ -424,10 +426,12 @@ header{
   }
 
   .image{
-    color: #212121;
+    color: #292929;
+    background-color: #292929;
   }
   
   .hero{
-    color: #212121;
+    color: #292929;
+    background-color: #292929;
   }
 } 
