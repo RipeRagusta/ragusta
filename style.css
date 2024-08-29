@@ -361,8 +361,44 @@ header{
     width: 100%;
   }
 }
- 
-@media (prefers-color-scheme: dark) {
+
+@media only screen and (max-width: 480px){
+  nav{
+    display: none;
+  }
+
+  nav ul{
+    padding: 0px;
+  }
+
+  .videobehind{
+    background: linear-gradient(to bottom, white, transparent 100%);
+    margin: 0px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+
+  .title{
+    margin-left: 10px;
+  }
+
+  .small{
+    margin-left: 10px;
+  }
+
+  .description{
+    max-width: calc( 100vw - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) and (prefers-color-scheme: dark){
+  .videobehind{
+    background: linear-gradient(to bottom, #212121, transparent 100%);
+  }
+}
+
+@media (prefers-color-scheme: dark){
   main{
     background-color: #212121;
     color: #ebebeb;
