@@ -374,7 +374,6 @@ header{
   .videobehind{
     background: linear-gradient(to bottom, white, transparent 100%);
     margin: 0px;
-    margin-bottom: 10px;
     border-radius: 0px;
     padding: 0px;
   }
@@ -390,9 +389,9 @@ header{
 
   .description{
     max-width: calc( 100vw - 20px);
-    padding-bottom: 100px;
     background: linear-gradient(180deg, white, transparent 100%);
     border-radius: 10px 10px 0 0; 
+    min-height: calc(85vh - 95px - ((100vw / 16) * 9));
   }
 
   video{
