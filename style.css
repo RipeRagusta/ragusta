@@ -284,6 +284,8 @@ header{
   margin: 0;
   padding: 0px;
   margin-top: 15px;
+  display: grid;
+  grid-gap: 1.5px;
 }
 
 @media only screen and (max-width: 968px){
