@@ -381,6 +381,7 @@ header{
 
   .title{
     margin-left: 10px;
+    max-width: calc(100vw - 20px);
   }
 
   .small{
