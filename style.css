@@ -390,16 +390,16 @@ header{
 
   .description{
     max-width: calc( 100vw - 20px);
+    background: linear-gradient(180deg, white, transparent 100%);
+    border-radius: 10px 10px 0 0; 
   }
 
   video{
     max-height: calc(100dvh - 30px);
   }
-}
 
-@media only screen and (max-width: 480px) and (prefers-color-scheme: dark){
-  .videobehind{
-    background: linear-gradient(to bottom, black, transparent 100%);
+  .channel .information{
+    background-color: #050505;
   }
 }
 
@@ -478,3 +478,17 @@ header{
     background-color: #292929;
   }
 } 
+
+@media only screen and (max-width: 480px) and (prefers-color-scheme: dark){
+  .videobehind{
+    background: linear-gradient(to bottom, black, transparent 100%);
+  }
+
+  .description{
+    background: linear-gradient(180deg, rgb(0 0 0 / 75%), transparent 100%);
+  }
+
+  .information h5{
+    color: #ebebeb;
+  }
+}
