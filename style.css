@@ -390,6 +390,10 @@ header{
   .description{
     max-width: calc( 100vw - 20px);
   }
+
+  video{
+    max-height: calc(100dvh - 30px);
+  }
 }
 
 @media only screen and (max-width: 480px) and (prefers-color-scheme: dark){
