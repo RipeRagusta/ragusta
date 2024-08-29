@@ -390,7 +390,7 @@ header{
 
   .description{
     max-width: calc( 100vw - 20px);
-    padding-bottom: 10px;
+    padding-bottom: 100px;
     background: linear-gradient(180deg, white, transparent 100%);
     border-radius: 10px 10px 0 0; 
   }
