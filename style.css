@@ -477,6 +477,14 @@ header{
     color: #292929;
     background-color: #292929;
   }
+
+  #fade{
+    background: linear-gradient(to bottom, rgb(0 0 0 / 50%), transparent 100%);
+  }
+
+  #fadetwo{
+    background: linear-gradient(to bottom, rgb(0 0 0 / 50%), transparent 100%);
+  }
 } 
 
 @media only screen and (max-width: 480px) and (prefers-color-scheme: dark){
@@ -490,5 +498,9 @@ header{
 
   .information h5{
     color: #ebebeb;
+  }
+
+  #fadetwo{
+    background: transparent;
   }
 }
