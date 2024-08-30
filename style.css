@@ -485,7 +485,7 @@ header{
   }
 
   .description{
-    background: linear-gradient(180deg, #212121, transparent 100%);
+    background: linear-gradient(180deg, #212121, rgb(5 5 5 / 60%), transparent 100%);
   }
 
   .information h5{
