@@ -1,5 +1,6 @@
 html{
   height: 100%;
+  font-size: calc(.78em + .5vmin);
 }
 
 body{
@@ -14,7 +15,7 @@ body{
 
 .bodyhang{
   overflow: clip;
-  margin:0px;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -44,7 +45,7 @@ nav ul{
   position: sticky;
   top: 15px;
   font-size: 1.1em;
-  list-style-type:none;
+  list-style-type: none;
   margin: 0px;
   padding: 0px;
 }
@@ -112,6 +113,8 @@ footer{
   display: block;
   color: #f1f1f1;
   background-color: #f1f1f1;
+  height: calc(166px + 1vmin);
+  width: auto;
 }
 
 #credits{
@@ -249,7 +252,7 @@ header{
 
 .small{
   display: block;
-  height: 100px;
+  height: calc(96.5px + .5vmin);;
   width: auto;
   border-radius: 50%;
   margin: 0px;
@@ -288,8 +291,17 @@ header{
   grid-gap: 1.5px;
 }
 
+.icon{
+  width: .74em;
+  height: .74em;
+}
+
 @media only screen and (max-width: 968px){
-  .container{
+  html{
+    font-size: 1em;
+  }
+
+   .container{
     grid-template-columns: 1fr;
     grid-template-areas: 
     "nav"
@@ -392,6 +404,42 @@ header{
 
   .channel .information{
     background-color: #050505;
+  }
+}
+
+@media only screen and (max-width: 388px){
+  .hero{
+    width: 115px;
+  }
+
+  #handle{
+    font-size: .75em;
+  }
+
+  .information .name{
+    font-size: 1.5em;
+  }
+
+  .footer-text{
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .hero{
+    width: 105px;
+  }
+
+  #handle{
+    font-size: .55em;
+  }
+
+  .information .name{
+    font-size: 1.05em;
+  }
+
+  .footer-text{
+    font-size: 25px;
   }
 }
 
