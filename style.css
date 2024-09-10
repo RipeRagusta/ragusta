@@ -75,11 +75,13 @@ nav a:active{
 }
 
 hr{
-  border-color: rgb(0 0 0 / 20%);
   margin: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px;
+  border: none;
+  height: 2px;
+  background-color: #f1f1f1;
 }
 
  main{
@@ -484,7 +486,7 @@ header{
   }
 
   hr{
-    border-color: #353535;
+    background-color: #292929;
   }
 
   .icon{
