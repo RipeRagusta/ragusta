@@ -407,7 +407,7 @@ header{
   }
 }
 
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 388px){
   .hero{
     width: 115px;
   }
