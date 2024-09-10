@@ -67,7 +67,7 @@ nav a:visited{
 
 nav a:hover{
   background-color: #f1f1f1;
-  outline: 1px solid #dedede;
+  outline: 1px solid #d9d9d9;
 }
 
 nav a:active{
@@ -81,7 +81,7 @@ hr{
   padding: 0px;
   border: none;
   height: 1px;
-  background-color: #dedede;
+  background-color: #d9d9d9;
 }
 
  main{
