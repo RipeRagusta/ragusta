@@ -80,8 +80,9 @@ hr{
   margin-bottom: 20px;
   padding: 0px;
   border: none;
-  height: 1px;
+  height: 0px;
   background-color: #dddddd;
+  border-top: 1px solid #dddddd;
 }
 
  main{
@@ -487,6 +488,7 @@ header{
 
   hr{
     background-color: #353535;
+    border-top: 1px solid #353535;
   }
 
   .icon{
