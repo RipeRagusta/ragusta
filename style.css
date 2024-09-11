@@ -667,7 +667,7 @@ header{
   }
 }
 
-@media only screen and (min-width: 3840px){
+@media only screen and (min-width: 3600px){
    main{
     padding: calc(3px + 1vw);
     margin: calc(6px + 1vw);
