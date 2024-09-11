@@ -82,7 +82,7 @@ hr{
   border: none;
   height: 0px;
   background-color: #dddddd;
-  border-top: 1px solid #dddddd;
+  border-top: thin solid #dddddd;
 }
 
  main{
@@ -488,7 +488,7 @@ header{
 
   hr{
     background-color: #353535;
-    border-top: 1px solid #353535;
+    border-top: thin solid #353535;
   }
 
   .icon{
