@@ -257,7 +257,7 @@ header{
 
 .small{
   display: block;
-  height: calc(96.5px + .5vmin);;
+  height: calc(96.5px + .5vmin);
   width: auto;
   border-radius: 50%;
   margin: 0px;
@@ -669,8 +669,26 @@ header{
 }
 
 @media only screen and (max-width: 307px) and (prefers-color-scheme: dark){
-   main{
+  main{
     background: linear-gradient(90deg, rgb(5 5 5 / 75%), transparent 100%);
+  }
+}
+
+@media only screen and (min-width: 2560px){
+  .small{
+    height: 145px;
+  }
+
+  html{
+    font-size: 1.4em;
+  }
+
+  .hero{
+    height: 200px;
+  }
+
+  nav a{
+    padding: 15px;
   }
 }
 
@@ -688,7 +706,7 @@ header{
 
   nav ul{
     position: sticky;
-    top: calc(3px + .5vw - (6px + 1vw));
+    top: calc(3px + .5vw);
   }
 
   nav a{
@@ -731,7 +749,7 @@ header{
   }
 
   .hero{
-    height: calc(200px + 1.5vw);
+    height: calc(200px + 2.5vw);
   }
 
   html{
