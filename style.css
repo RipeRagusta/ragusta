@@ -688,7 +688,7 @@ header{
 
 @media only screen and (min-width: 2560px){
   .small{
-    height: 145px;
+    height: calc(120px + .5vw);
   }
 
   html{
