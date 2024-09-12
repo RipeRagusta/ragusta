@@ -674,6 +674,12 @@ header{
   }
 }
 
+@media only screen and (min-width: 1404px){
+  .banner{
+    max-width: calc(690px + 15vw + 40px);
+  }
+}
+
 @media only screen and (min-width: 1639px){
   .banner{
     max-width: calc(920px + 20vw + 60px);
