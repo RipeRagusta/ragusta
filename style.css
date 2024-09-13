@@ -709,72 +709,67 @@ header{
 }
 
 @media only screen and (min-width: 2891px){
-  .banner{
-    max-width: calc(1380px + 30vw + 100px);
-  }
-}
-
-@media only screen and (min-width: 4159px){
    main{
-    padding: calc(3px + 1vw);
-    margin: calc(6px + 1vw);
+    padding: 1.0595356vw;
+    margin: 1.119071244vw;
     border-radius: 0.5vw;
   }
 
   nav{
     border-radius: 0.5vw;
-    padding: calc(3px + 0.5vw);
+    padding: 0.500011815vw;
+    margin: 1.119071244vw  0px 1.119071244vw 1.119071244vw;
   }
 
   nav ul{
     position: sticky;
-    top: calc(3px + 0.5vw);
+    top: 0.500011815vw;
   }
 
   nav a{
-    padding: calc(3px + 0.5vw);
+    padding: 0.500011815vw;
     text-decoration: none;
     display: block;
     text-align: left;
   }
 
   #splitter{
-    margin-top: calc(3px + 0.5vw);
-    margin-bottom: calc(3px + 0.5vw);
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
+    margin-top: 0.500011815vw;
+    margin-bottom: 0.500011815vw;
+    margin-left: 0.559535622vw;
+    margin-right: 0.559535622vw;
   }
 
   hr{
-    margin-top: calc(3px + 1vw);
-    margin-bottom: calc(3px + 1vw);
+    margin-top: 1.0595356vw;
+    margin-bottom: 1.0595356vw;
   }
 
   .information{
-    margin-left: calc(3px + 1vw);
-    margin-right: calc(3px + 1vw);
+    margin-left: 1.0595356vw;
+    margin-right: 1.0595356vw;
   }
 
   .information #handle{
-    margin-top: calc(3px + 0.5vw);
+    margin-top: 0.500011815vw;
   }
 
   .gallery{
-    gap: calc(3px + 1vw);
-    max-width: calc(1380px + 47vw + 15px);
+    gap: 1.0595356vw;
+    max-width: 74.68251626vw;
   }
 
   .banner{
-    max-width: calc(1380px + 47vw + 15px);
+    max-width: 74.68251626vw;
   }
 
   .image{
     height: auto;
-    width: calc(230px + 7vw);
+    width: 11.56413971vw;
   }
 
   .hero{
-    height: calc(200px + 2.5vw);
+    height: 6.468882715vw;
   }
 
   html{
@@ -782,8 +777,8 @@ header{
   }
 
   .texting{
-    margin-top: calc(3px + 0.25vw);
-    width: calc(230px + 7vw);
+    margin-top: 0.309535622vw;
+    width: 11.56413971vw;
   }
   
   .description{
@@ -791,27 +786,27 @@ header{
   }
 
   .description .details{
-    padding: calc(3px + 0.5vw);
+    padding: 0.500011815vw;
   }
 
   .small{
-    margin-top: calc(3px + 0.5vw);
-    margin-bottom: calc(3px + 0.5vw);
-    height: calc(130px + 1.5vw);
+    margin-top: 0.500011815vw;
+    margin-bottom: 0.500011815vw;
+    height: 4.07987696vw;
   }
 
   .channel .information{
-    margin-left: calc(3px + 0.5vw);
-    margin-right: calc(3px + 0.5vw);
-    padding: calc(1.5px + 0.25vw);
-    border-radius: calc(1.5px + 0.25vw);
+    margin-left: 0.500011815vw;
+    margin-right: 0.500011815vw;
+    padding: 0.279767811vw;
+    border-radius: 0.279767811vw;
   }
 
   .title{
-    margin-top: calc(3px + 0.5vw);
+    margin-top: 0.500011815vw;
   }
 
   video{
-    max-height: calc(100vh - ((12px + 3vw));
+    max-height: calc(100vh - 3.238142444vw);
   }
 }
