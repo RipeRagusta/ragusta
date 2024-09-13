@@ -177,7 +177,7 @@ video{
   margin: 0px auto;
   width: 80%;
   height: auto;
-  max-height: calc(100dvh - (52px + 2vw));
+  max-height: calc(100dvh - (46px + 1vw));
   background-color: #000000;
 }
 
@@ -338,7 +338,7 @@ header{
   }
 
   nav ul{
-    list-style-type:none;
+    list-style-type: none;
     text-align: center;
     margin: 0px auto;
     padding: 5px;
@@ -349,7 +349,7 @@ header{
   }
 
   nav li{
-    display:inline-block;
+    display: inline-block;
   }  
 
   video{
@@ -690,26 +690,8 @@ header{
   }
 }
 
-@media only screen and (min-width: 2560px){
-  .small{
-    height: calc(120px + 0.5vw);
-  }
-
-  html{
-    font-size: 1.4em;
-  }
-
-  .hero{
-    height: 200px;
-  }
-
-  nav a{
-    padding: 15px;
-  }
-}
-
 @media only screen and (min-width: 2891px){
-   main{
+  main{
     padding: 1.0595356vw;
     margin: 1.119071244vw;
     border-radius: 0.5vw;
@@ -736,8 +718,8 @@ header{
   #splitter{
     margin-top: 0.500011815vw;
     margin-bottom: 0.500011815vw;
-    margin-left: 0.559535622vw;
-    margin-right: 0.559535622vw;
+    margin-left: 0.559523785vw;
+    margin-right: 0.559523785vw;
   }
 
   hr{
@@ -773,7 +755,7 @@ header{
   }
 
   html{
-    font-size: calc(0.8em + 0.4vw);
+    font-size: calc(0.5em + 0.5vw);
   }
 
   .texting{
@@ -808,5 +790,9 @@ header{
 
   video{
     max-height: calc(100vh - 3.238142444vw);
+  }
+
+  .read{
+    margin-top: 0.500011815vw;
   }
 }
