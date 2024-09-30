@@ -127,6 +127,7 @@ footer{
   /*height: 540px;*/
   height: 25vmin;
   overflow: hidden;
+  min-height: 20vh;
 }
 
 .footer-text{
