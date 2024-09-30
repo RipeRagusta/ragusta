@@ -96,19 +96,6 @@ hr{
 }
 
 footer{
-  /*width: 110%;
-  height: auto;
-  margin-left: -5%;
-  position: relative;
-  background-image: url("sand.jpg");
-  background-position: center center;
-  background-repeat: repeat-x|repeat-y;
-  display: inline-block;
-  transform: perspective(3000px) rotateX(60deg);
-  overflow: hidden;
-  margin-bottom: -132px;
-  margin-top: -145px;
-  transform-origin: center;*/
   background-image: url("sand.jpg");
   background-position: center center;
   background-repeat: repeat-x|repeat-y;
@@ -124,15 +111,9 @@ footer{
 }
 
 #credits{
-  /*height: 540px;*/
   height: 25vmin;
   overflow: hidden;
   min-height: 20vh;
-}
-
-.footer-text{
-  text-align: center;
-  /*padding-top: 230px;*/
 }
 
 .image{
@@ -435,10 +416,6 @@ header{
   .information .name{
     font-size: 1.5em;
   }
-
-  .footer-text{
-    font-size: 28px;
-  }
 }
 
 @media only screen and (max-width: 340px){
@@ -452,10 +429,6 @@ header{
 
   .information .name{
     font-size: 1.2em;
-  }
-
-  .footer-text{
-    font-size: 25px;
   }
 }
 
@@ -515,10 +488,6 @@ header{
 
   html{
     font-size: calc(0.5em + 2vw);
-  }
-
-  footer{
-    /*display: none;*/
   }
 
   hr{
