@@ -409,7 +409,7 @@ header{
     max-width: calc( 100vw - 30px);
     background: linear-gradient(180deg, white, transparent 100%);
     border-radius: 10px 10px 0px 0px; 
-    min-height: calc(85vh - 105px - ((100vw / 16) * 9));
+    min-height: calc(100vh - 105px - ((100vw / 16) * 9));
   }
 
   video{
