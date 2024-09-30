@@ -96,7 +96,7 @@ hr{
 }
 
 footer{
-  width: 110%;
+  /*width: 110%;
   height: auto;
   margin-left: -5%;
   position: relative;
@@ -108,7 +108,10 @@ footer{
   overflow: hidden;
   margin-bottom: -132px;
   margin-top: -145px;
-  transform-origin: center;
+  transform-origin: center;*/
+  background-image: url("sand.jpg");
+  background-position: center center;
+  background-repeat: repeat-x|repeat-y;
  }
 
 .hero{
@@ -121,13 +124,14 @@ footer{
 }
 
 #credits{
-  height: 540px;
+  /*height: 540px;*/
+  height: 25vh;
   overflow: hidden;
 }
 
 .footer-text{
   text-align: center;
-  padding-top: 230px;
+  /*padding-top: 230px;*/
 }
 
 .image{
@@ -513,7 +517,7 @@ header{
   }
 
   footer{
-    display: none;
+    /*display: none;*/
   }
 
   hr{
