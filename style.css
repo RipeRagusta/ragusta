@@ -163,6 +163,7 @@ video{
   margin: 0px auto;
   width: 80%;
   height: auto;
+  max-height: calc(100vh - (46px + 1vw));
   max-height: calc(100dvh - (46px + 1vw));
   background-color: #000000;
 }
@@ -341,6 +342,7 @@ header{
   video{
     width: 100%;
     margin-top: 0px;
+    max-height: calc(100vh - 125px);
     max-height: calc(100dvh - 125px);
     min-height: calc(50px);
   }
@@ -390,11 +392,13 @@ header{
   .description{
     max-width: calc( 100vw - 30px);
     background: linear-gradient(180deg, white, transparent 100%);
-    border-radius: 10px 10px 0px 0px; 
+    border-radius: 10px 10px 0px 0px;
+    min-height: calc(85vh - 105px - 1em - ((100vw / 16) * 9));
     min-height: calc(85dvh - 105px - 1em - ((100vw / 16) * 9));
   }
 
   video{
+    max-height: calc(100vh - 20px);
     max-height: calc(100dvh - 20px);
     min-height: initial;
   }
