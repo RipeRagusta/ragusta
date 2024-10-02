@@ -144,10 +144,13 @@ footer{
 }
 
 .gallery{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(calc(230px + 5vw), auto));
+  grid-gap: 20px;
   justify-content: center;
-  gap: 20px;
+  padding: 0px;
   margin: 0px auto;
   max-width: calc(1380px + 30vw + 100px);
 }
@@ -715,8 +718,9 @@ header{
   }
 
   .gallery{
-    gap: 1.0595356vw;
+    grid-gap: 1.0595356vw;
     max-width: 74.68251626vw;
+    grid-template-columns: repeat(auto-fit, minmax(11.56413971vw, auto));
   }
 
   .banner{
