@@ -133,6 +133,7 @@ footer{
   margin: 0px auto;
   margin-top: 5px;
   max-width: calc(100vw - 70px);
+  line-height: 1.15;
 }
 
 .texting:hover{
