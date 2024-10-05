@@ -674,7 +674,7 @@ header{
 
 @media only screen and (min-width: 2891px){
   main{
-    padding: 1.0595356vw;
+    padding: 0.85vw;
     margin: 1.119071244vw;
     border-radius: 0.5vw;
   }
@@ -700,18 +700,18 @@ header{
   #splitter{
     margin-top: 0.500011815vw;
     margin-bottom: 0.500011815vw;
-    margin-left: 0.559523785vw;
-    margin-right: 0.559523785vw;
+    margin-left: 0.349988185vw;
+    margin-right: 0.349988185vw;
   }
 
   hr{
-    margin-top: 1.0595356vw;
-    margin-bottom: 1.0595356vw;
+    margin-top: 0.85vw;
+    margin-bottom: 0.85vw;
   }
 
   .information{
-    margin-left: 1.0595356vw;
-    margin-right: 1.0595356vw;
+    margin-left: 0.85vw;
+    margin-right: 0.85vw;
   }
 
   .information #handle{
@@ -719,18 +719,18 @@ header{
   }
 
   .gallery{
-    grid-gap: 1.0595356vw;
-    max-width: 74.68251626vw;
-    grid-template-columns: repeat(auto-fit, minmax(11.56413971vw, auto));
+    grid-gap: 0.85vw;
+    max-width: 74.89205186vw;
+    grid-template-columns: repeat(auto-fit, minmax(11.77367531vw, auto));
   }
 
   .banner{
-    max-width: 74.68251626vw;
+    max-width: 74.89205186vw;
   }
 
   .image{
     height: auto;
-    width: 11.56413971vw;
+    width: 11.77367531vw;
   }
 
   .hero{
@@ -738,12 +738,12 @@ header{
   }
 
   html{
-    font-size: calc(0.5em + 0.5vw);
+    font-size: calc(0.45em + 0.45vw);
   }
 
   .texting{
-    margin-top: 0.309535622vw;
-    width: 11.56413971vw;
+    margin-top: 0.2125vw;
+    width: 11.77367531vw;
   }
   
   .description{
