@@ -121,7 +121,7 @@ footer{
   width: calc((67.55397407vw - 40px) / 3);
   color: #f1f1f1;
   background-color: #f1f1f1;
-  max-width: calc(100vw - 70px);
+  max-width: calc((67.55397407vw - 40px) / 3);
 }
 
 .texting{
@@ -132,7 +132,7 @@ footer{
   text-decoration: none;
   margin: 0px auto;
   margin-top: 5px;
-  max-width: calc(100vw - 70px);
+  max-width: calc((67.55397407vw - 40px) / 3);
   line-height: 1.15;
 }
 
