@@ -743,10 +743,6 @@ header{
 }
 
 @media only screen and (min-width: 2460px){
-  .banner{
-    max-width: calc(0.9 * (85vw - 12px - 2vw - 20px - 20px));
-  }
-
   .image{
     width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 80px) / 5);
   }
