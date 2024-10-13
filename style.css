@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  font-family: Arial, sans-serif;
+  font-family: arial, sans-serif;
   background: linear-gradient(45deg, #65d4d8, #1774e6);
   background-attachment: fixed;
   background-size: cover;
@@ -27,8 +27,7 @@ body{
 .container{
   display: grid;
   grid-template-columns: 0.15fr 0.85fr;
-  grid-template-areas: 
-  "nav  main";
+  grid-template-areas: "nav main";
 }
 
 nav{
@@ -58,11 +57,11 @@ nav a{
 }
 
 nav a:link{
-  color:black;
+  color: #000000;
 }
 
 nav a:visited{
-  color:black;
+  color: #000000;
 }
 
 nav a:hover{
@@ -71,7 +70,7 @@ nav a:hover{
 }
 
 nav a:active{
-  color:blue;
+  color: #0000ff;
 }
 
 hr{
@@ -97,8 +96,8 @@ main{
 
 footer{
   background-image: url("sand.jpg");
-  background-position: center center;
-  background-repeat: repeat-x|repeat-y;
+  background-position: center;
+  background-repeat: repeat;
  }
 
 .hero{
@@ -118,21 +117,21 @@ footer{
 
 .image{
   height: auto;
-  width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 40px) / 3);
+  width: calc(((0.9 * (83vw - 52px)) - 40px) / 3);
   color: #f1f1f1;
   background-color: #f1f1f1;
-  max-width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 40px) / 3);
+  max-width: calc(((0.9 * (83vw - 52px)) - 40px) / 3);
 }
 
 .texting{
   color: black;
   overflow: hidden;
   white-space: nowrap;
-  width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 40px) / 3);
+  width: calc(((0.9 * (83vw - 52px)) - 40px) / 3);
   text-decoration: none;
   margin: 0px auto;
   margin-top: 5px;
-  max-width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 40px) / 3);
+  max-width: calc(((0.9 * (83vw - 52px)) - 40px) / 3);
   line-height: 1.15;
 }
 
@@ -148,12 +147,12 @@ footer{
   display: grid;
   align-items: center;
   justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 40px) / 3), auto));
+  grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (83vw - 52px)) - 40px) / 3), auto));
   grid-gap: 20px;
   justify-content: center;
   padding: 0px;
   margin: 0px auto;
-  max-width: calc(0.9 * (85vw - 12px - 2vw - 20px - 20px));
+  max-width: calc(0.9 * (83vw - 52px));
 }
 
 .date{
@@ -294,17 +293,17 @@ header{
 
 @media only screen and (max-width: 1149px){
   .image{
-    width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 20px) / 2);
-    max-width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 20px) / 2);
+    width: calc(((0.9 * (83vw - 52px)) - 20px) / 2);
+    max-width: calc(((0.9 * (83vw - 52px)) - 20px) / 2);
   }
 
   .texting{
-    width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 20px) / 2);
-    max-width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 20px) / 2);
+    width: calc(((0.9 * (83vw - 52px)) - 20px) / 2);
+    max-width: calc(((0.9 * (83vw - 52px)) - 20px) / 2);
   }
 
   .gallery{
-    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 20px) / 2), auto));
+    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (83vw - 52px)) - 20px) / 2), auto));
   }
 }
 
@@ -315,9 +314,7 @@ header{
 
    .container{
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "nav"
-    "main";
+    grid-template-areas: "nav" "main";
   }
 
   #splitter{
@@ -380,34 +377,34 @@ header{
   }
 
  .image{
-    width: calc(((0.9 * (100vw - 30px - 20px - 20px)) - 20px) / 2);
-    max-width: calc(((0.9 * (100vw - 30px - 20px - 20px)) - 20px) / 2);
+    width: calc(((0.9 * (100vw - 70px)) - 20px) / 2);
+    max-width: calc(((0.9 * (100vw - 70px)) - 20px) / 2);
   }
 
   .texting{
-    width: calc(((0.9 * (100vw - 30px - 20px - 20px)) - 20px) / 2);
-    max-width: calc(((0.9 * (100vw - 30px - 20px - 20px)) - 20px) / 2);
+    width: calc(((0.9 * (100vw - 70px)) - 20px) / 2);
+    max-width: calc(((0.9 * (100vw - 70px)) - 20px) / 2);
   }
 
   .gallery{
-    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (100vw - 30px - 20px - 20px)) - 20px) / 2), auto));
-    max-width: calc(0.9 * (100vw - 30px - 20px - 20px));
+    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (100vw - 70px)) - 20px) / 2), auto));
+    max-width: calc(0.9 * (100vw - 70px));
   }
 }
 
 @media only screen and (max-width: 611px){
   .gallery{
-    grid-template-columns: repeat(auto-fit, minmax(calc(0.9 * (100vw - 30px - 20px - 20px)), auto));
+    grid-template-columns: repeat(auto-fit, minmax(calc(0.9 * (100vw - 70px)), auto));
   }
 
   .image{
-    width: calc(0.9 * (100vw - 30px - 20px - 20px));
-    max-width: calc(0.9 * (100vw - 30px - 20px - 20px));
+    width: calc(0.9 * (100vw - 70px));
+    max-width: calc(0.9 * (100vw - 70px));
   }
 
   .texting{
-    width: calc(0.9 * (100vw - 30px - 20px - 20px));
-    max-width: calc(0.9 * (100vw - 30px - 20px - 20px));
+    width: calc(0.9 * (100vw - 70px));
+    max-width: calc(0.9 * (100vw - 70px));
   }
 }
 
@@ -421,7 +418,7 @@ header{
   }
 
   .videobehind{
-    background: linear-gradient(to bottom, white, transparent 100%);
+    background: linear-gradient(180deg, #ffffff, transparent 100%);
     margin: 0px;
     border-radius: 0px;
     padding: 0px;
@@ -437,11 +434,11 @@ header{
   }
 
   .description{
-    max-width: calc( 100vw - 30px);
-    background: linear-gradient(180deg, white, transparent 100%);
+    max-width: calc(100vw - 30px);
+    background: linear-gradient(180deg, #ffffff, transparent 100%);
     border-radius: 10px 10px 0px 0px;
-    min-height: calc(85vh - 15px - 15px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
-    min-height: calc(85dvh - 15px - 15px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
+    min-height: calc(85vh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
+    min-height: calc(85dvh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
   }
 
   video{
@@ -490,7 +487,7 @@ header{
     margin: 0px;
     padding: 0px;
     border-radius: 0px;
-    background: linear-gradient(90deg, rgb(255 255 255 / 75%), transparent 100%);
+    background: linear-gradient(90deg, rgba(255 255 255 / 75%), transparent 100%);
   }
 
   .hero{
@@ -682,21 +679,21 @@ header{
   }
 
   #fade{
-    background: linear-gradient(to bottom, rgb(0 0 0 / 50%), transparent);
+    background: linear-gradient(180deg, rgba(0 0 0 / 50%), transparent 100%);
   }
 
   #fadetwo{
-    background: linear-gradient(to bottom, rgb(0 0 0 / 50%), transparent);
+    background: linear-gradient(180deg, rgba(0 0 0 / 50%), transparent 100%);
   }
 } 
 
 @media only screen and (max-width: 481px) and (prefers-color-scheme: dark){
   .videobehind{
-    background: linear-gradient(to bottom, #000000, transparent);
+    background: linear-gradient(180deg, #000000, transparent);
   }
 
   .description{
-    background: linear-gradient(180deg, #212121, rgb(5 5 5 / 50%), transparent);
+    background: linear-gradient(180deg, #212121, rgba(5 5 5 / 50%), transparent 100%);
   }
 
   .information h5{
@@ -704,32 +701,32 @@ header{
   }
 
   #fadetwo{
-    background: transparent;
+    background: transparent 100%;
   }
 }
 
 @media only screen and (max-width: 307px) and (prefers-color-scheme: dark){
   main{
-    background: linear-gradient(90deg, rgb(5 5 5 / 75%), transparent);
+    background: linear-gradient(90deg, rgba(5 5 5 / 75%), transparent 100%);
   }
 }
 
 @media only screen and (min-width: 1639px){
   .banner{
-    max-width: calc(0.9 * (85vw - 12px - 2vw - 20px - 20px));
+    max-width: calc(0.9 * (83vw - 52px));
   }
 
   .image{
-    width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 60px) / 4);
+    width: calc(((0.9 * (83vw - 52px)) - 60px) / 4);
   }
 
   .texting{
-    width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 60px) / 4);
-    max-width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 60px) / 4);
+    width: calc(((0.9 * (83vw - 52px)) - 60px) / 4);
+    max-width: calc(((0.9 * (83vw - 52px)) - 60px) / 4);
   }
 
   .gallery{
-    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 60px) / 4), auto));
+    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (83vw - 52px)) - 60px) / 4), auto));
   }
 
   nav a{
@@ -739,16 +736,16 @@ header{
 
 @media only screen and (min-width: 2460px){
   .image{
-    width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 80px) / 5);
+    width: calc(((0.9 * (83vw - 52px)) - 80px) / 5);
   }
 
   .texting{
-    width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 80px) / 5);
-    max-width: calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 80px) / 5);
+    width: calc(((0.9 * (83vw - 52px)) - 80px) / 5);
+    max-width: calc(((0.9 * (83vw - 52px)) - 80px) / 5);
   }
 
   .gallery{
-    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (85vw - 12px - 2vw - 20px - 20px)) - 80px) / 5), auto));
+    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (83vw - 52px)) - 80px) / 5), auto));
   }
 
   nav a{
@@ -758,22 +755,22 @@ header{
 
 @media only screen and (min-width: 2891px){
   .banner{
-    max-width: calc(0.9 * (85vw - 1.207194742vw - 1.207194742vw - 0.691802145vw - 0.691802145vw));
+    max-width: 73.081805603vw;
   }
 
   .image{
-    width: calc(((0.9 * (85vw - 1.207194742vw - 1.207194742vw - 0.691802145vw - 0.691802145vw)) - (0.691802145vw * 5)) / 6);
+    width: 11.603799146vw;
   }
 
   .texting{
     margin-top: 0.172950536vw;
-    width: calc(((0.9 * (85vw - 1.207194742vw - 1.207194742vw - 0.691802145vw - 0.691802145vw)) - (0.691802145vw * 5)) / 6);
-    max-width: calc(((0.9 * (85vw - 1.207194742vw - 1.207194742vw - 0.691802145vw - 0.691802145vw)) - (0.691802145vw * 5)) / 6);
+    width: 11.603799146vw;
+    max-width: 11.603799146vw;
   }
 
   .gallery{
-    max-width: calc(0.9 * (85vw - 1.207194742vw - 1.207194742vw - 0.691802145vw - 0.691802145vw));
-    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (85vw - 1.207194742vw - 1.207194742vw - 0.691802145vw - 0.691802145vw)) - (0.691802145vw * 5)) / 6), auto));
+    max-width: 73.081805603vw;
+    grid-template-columns: repeat(auto-fit, minmax(11.603799146vw, auto));
     grid-gap: 0.691802145vw;
   }
 
@@ -849,8 +846,8 @@ header{
   }
 
   video{
-    max-height: calc(100vh - 0.691802145vw - 0.691802145vw - 1.207194742vw);
-    max-height: calc(100dvh - 0.691802145vw - 0.691802145vw - 1.207194742vw);
+    max-height: calc(100vh - 2.590799032vw);
+    max-height: calc(100dvh - 2.590799032vw);
   }
 
   .read{
