@@ -390,24 +390,24 @@ header{
   }
 
   .gallery{
-    grid-template-columns: repeat(auto-fit, minmax(calc(((0.90 * (100vw - 30px - 20px - 20px)) - 20px) / 2), auto));
+    grid-template-columns: repeat(auto-fit, minmax(calc(((0.9 * (100vw - 30px - 20px - 20px)) - 20px) / 2), auto));
     max-width: calc(0.9 * (100vw - 30px - 20px - 20px));
   }
 }
 
 @media only screen and (max-width: 611px){
   .gallery{
-    grid-template-columns: repeat(auto-fit, minmax(calc(0.8 * (100vw - 30px - 20px - 20px)), auto));
+    grid-template-columns: repeat(auto-fit, minmax(calc(0.9 * (100vw - 30px - 20px - 20px)), auto));
   }
 
   .image{
-    width: calc(0.8 * (100vw - 30px - 20px - 20px));
-    max-width: calc(0.8 * (100vw - 30px - 20px - 20px));
+    width: calc(0.9 * (100vw - 30px - 20px - 20px));
+    max-width: calc(0.9 * (100vw - 30px - 20px - 20px));
   }
 
   .texting{
-    width: calc(0.8 * (100vw - 30px - 20px - 20px));
-    max-width: calc(0.8 * (100vw - 30px - 20px - 20px));
+    width: calc(0.9 * (100vw - 30px - 20px - 20px));
+    max-width: calc(0.9 * (100vw - 30px - 20px - 20px));
   }
 }
 
@@ -461,6 +461,7 @@ header{
   }
 
   #handle{
+    margin-top: 12.5px;
     font-size: 0.75em;
   }
 
@@ -475,6 +476,7 @@ header{
   }
 
   #handle{
+    margin-top: 10px;
     font-size: 0.6em;
   }
 
@@ -848,6 +850,7 @@ header{
 
   video{
     max-height: calc(100vh - 0.691802145vw - 0.691802145vw - 1.207194742vw);
+    max-height: calc(100dvh - 0.691802145vw - 0.691802145vw - 1.207194742vw);
   }
 
   .read{
