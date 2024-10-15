@@ -716,6 +716,7 @@ header{
 
   .image{
     width: calc(((0.9 * (83vw - 52px)) - 60px) / 4);
+    max-width: calc(((0.9 * (83vw - 52px)) - 60px) / 4);
   }
 
   .texting{
@@ -735,6 +736,7 @@ header{
 @media only screen and (min-width: 2460px){
   .image{
     width: calc(((0.9 * (83vw - 52px)) - 80px) / 5);
+    max-width: calc(((0.9 * (83vw - 52px)) - 80px) / 5);
   }
 
   .texting{
@@ -758,6 +760,7 @@ header{
 
   .image{
     width: 11.603799146vw;
+    max-width: 11.603799146vw;
   }
 
   .texting{
