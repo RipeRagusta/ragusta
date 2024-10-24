@@ -70,7 +70,7 @@ nav a:hover{
 }
 
 nav a:active{
-  color: #0000ff;
+  color: #000000;
 }
 
 hr{
@@ -136,11 +136,11 @@ footer{
 }
 
 .texting:hover{
-  color: #808080;
+  color: #000000;
 }
 
 .texting:active{
-  color: #0000ff;
+  color: #000000;
 }
 
 .gallery{
@@ -629,11 +629,11 @@ header{
   }
 
   .texting:hover{
-    color: #b3b3b3;
+    color: #ebebeb;
   }
 
   .texting:active{
-    color: #ffffff;
+    color: #ebebeb;
   }
   
   .description{
