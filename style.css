@@ -136,11 +136,11 @@ footer{
 }
 
 .texting:hover{
-  color: #000000;
+  color: #808080;
 }
 
 .texting:active{
-  color: #000000;
+  color: #808080;
 }
 
 .gallery{
@@ -629,11 +629,11 @@ header{
   }
 
   .texting:hover{
-    color: #ebebeb;
+    color: #999999;
   }
 
   .texting:active{
-    color: #ebebeb;
+    color: #999999;
   }
   
   .description{
