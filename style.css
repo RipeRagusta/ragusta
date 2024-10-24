@@ -124,7 +124,7 @@ footer{
 }
 
 .texting{
-  color: black;
+  color: #000000;
   overflow: hidden;
   white-space: nowrap;
   width: calc(((0.9 * (83vw - 52px)) - 40px) / 3);
