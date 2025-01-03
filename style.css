@@ -100,7 +100,8 @@ main{
   background-color: #ffffff;
   border-radius: 15px;
   margin: calc(6px + 1vw);
-  min-height: clamp(calc(100dvh - 52px - 2vw - 25vmin), calc(100dvh - 52px - 2vw - 20vh), calc(100dvh - 52px - 2vw - 25vmin));
+  min-height: min(calc(100vh - 52px - 2vw - 20vh), calc(100vh - 52px - 2vw - 25vmin));
+  min-height: min(calc(100dvh - 52px - 2vw - 20vh), calc(100dvh - 52px - 2vw - 25vmin));
   overflow: hidden;
   text-overflow: clip;
 }
@@ -338,7 +339,8 @@ header{
   
   main{
     margin: 15px;
-    min-height: 80vh;
+    min-height: min(calc(100vh - 70px - 20vh), calc(100vh - 70px - 25vmin));
+    min-height: min(calc(100dvh - 70px - 20vh), calc(100dvh - 70px - 25vmin));
   }
 
   .small{
@@ -422,6 +424,10 @@ header{
     display: none;
   }
 
+  main{
+    min-height: min(calc(100dvh - 20vh), calc(100dvh - 25vmin));
+  }
+
   nav ul{
     padding: 0px;
   }
@@ -447,7 +453,7 @@ header{
     background: linear-gradient(180deg, #ffffff, transparent 100%);
     border-radius: 10px 10px 0px 0px;
     min-height: calc(85vh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
-    min-height: calc(85dvh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
+    min-height: calc(85dvh - ((100vh - 100dvh) / 2) - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
   }
 
   video{
@@ -788,7 +794,8 @@ header{
     margin: 1.207194742vw;
     padding: 0.691802145vw;
     border-radius: 0.518851609vw;
-    min-height: clamp(calc(100dvh - 3.797993774vw - 25vmin), calc(100dvh - 3.797993774vw - 20vh), calc(100dvh - 3.797993774vw - 25vmin));
+    min-height: min(calc(100vh - 3.797993774vw - 20vh), calc(100vh - 3.797993774vw - 25vmin));
+    min-height: min(calc(100dvh - 3.797993774vw - 20vh), calc(100dvh - 3.797993774vw - 25vmin));
   }
 
   .hero{
