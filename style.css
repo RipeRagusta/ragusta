@@ -425,6 +425,7 @@ header{
   }
 
   main{
+    min-height: min(calc(100vh - 20vh), calc(100vh - 25vmin));
     min-height: min(calc(100dvh - 20vh), calc(100dvh - 25vmin));
   }
 
