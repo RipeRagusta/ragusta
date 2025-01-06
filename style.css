@@ -453,7 +453,7 @@ header{
     background: linear-gradient(180deg, #ffffff, transparent 100%);
     border-radius: 10px 10px 0px 0px;
     min-height: calc(85vh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
-    min-height: calc(85dvh - clamp(0px, calc((100vh - 100dvh) / 10), 7.5px) - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
+    min-height: calc(85dvh - clamp(0px, calc((100vh - 100dvh) / 10), 15px) - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
   }
 
   video{
@@ -666,6 +666,8 @@ header{
 
   body{
     background: linear-gradient(45deg, #0c3d74, #000042);
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   footer{
