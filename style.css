@@ -550,18 +550,19 @@ header{
 
   .small{
     width: 60px;
-    max-width: 92vw;
-    max-height: 92vw;
+    height: auto;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 60px;
     margin-bottom: 4vw;
     margin-top: 0px;
   }
 
   .title{
     max-width: 100%;
-    margin: 4vw;
+    margin: 0px;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
   }
 
   .title .name{
