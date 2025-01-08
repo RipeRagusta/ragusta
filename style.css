@@ -431,8 +431,7 @@ header{
 
   .title{
     margin-left: 15px;
-    max-width: calc(100vw - 30px);
-    max-width: calc(100dvw - 30px);
+    max-width: calc(100% - 30px);
   }
 
   .small{
@@ -440,8 +439,7 @@ header{
   }
 
   .description{
-    max-width: calc(100vw - 30px);
-    max-width: calc(100dvw - 30px);
+    max-width: calc(100% - 30px);
     background: linear-gradient(180deg, #ffffff, transparent 100%);
     border-radius: 10px 10px 0px 0px;
     min-height: calc(85vh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
