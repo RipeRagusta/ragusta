@@ -689,7 +689,7 @@ header{
   }
 
   .gallery{
-    grid-template-columns: calc((90% - 60px) / 4) calc((90% - 60px) / 4) calc((90% - 60px) / 4) calc((90% - 60px) / 4);
+    grid-template-columns: repeat(auto-fit, calc((90% - 60px) / 4));
   }
 
   nav a{
@@ -699,7 +699,7 @@ header{
 
 @media only screen and (min-width: 2460px){
   .gallery{
-    grid-template-columns: calc((90% - 80px) / 5) calc((90% - 80px) / 5) calc((90% - 80px) / 5) calc((90% - 80px) / 5) calc((90% - 80px) / 5);
+    grid-template-columns: repeat(auto-fit, calc((90% - 80px) / 5));
   }
 
   nav a{
