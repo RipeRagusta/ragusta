@@ -14,7 +14,7 @@ html{
 
 body{
   font-family: arial, sans-serif;
-  height: 100%;
+  min-height: 100%;
   background: linear-gradient(45deg, #65d4d8, #1774e6);
   background-attachment: fixed;
   background-size: cover;
