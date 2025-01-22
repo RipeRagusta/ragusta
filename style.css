@@ -9,6 +9,7 @@ html, body{
 
 html{
   font-size: clamp(0.65vw, calc(0.78em + 0.5vmin), 1.2em);
+  overscroll-behavior: none;
 }
 
 body{
