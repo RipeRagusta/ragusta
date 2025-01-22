@@ -9,14 +9,10 @@ html, body{
 
 html{
   font-size: clamp(0.65vw, calc(0.78em + 0.5vmin), 1.2em);
-  overscroll-behavior: none;
 }
 
 body{
   font-family: arial, sans-serif;
-}
-
-#color{
   background: linear-gradient(45deg, #65d4d8, #1774e6);
   background-attachment: fixed;
   background-size: cover;
@@ -645,7 +641,7 @@ header{
     filter: invert(1) brightness(0.92);
   }
 
-  #color{
+  body{
     background: linear-gradient(45deg, #0c3d74, #000042);
     background-attachment: fixed;
     background-size: cover;
