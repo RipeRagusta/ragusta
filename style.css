@@ -560,7 +560,6 @@ header{
   .description{
     max-width: 100%;
     border-radius: 0px;
-    min-height: calc(85vh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
     min-height: calc(85dvh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
   }
 
