@@ -5,7 +5,6 @@ html, body{
   min-height: 100dvh;
   padding: 0px;
   margin: 0px;
-  position: relative;
 }
 
 html{
@@ -14,21 +13,19 @@ html{
 
 body{
   font-family: arial, sans-serif;
+}
+
+#color{
   background: linear-gradient(45deg, #65d4d8, #1774e6);
   background-attachment: fixed;
   background-size: cover;
-  margin: 0px;
-}
-
-.bodyhang{
-  overflow: clip;
-  margin: 0px;
-  padding: 0px;
 }
 
 .page{
+  overflow: clip;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
-  margin: 0px auto;
 }
 
 .container{
@@ -386,11 +383,11 @@ header{
     min-height: 20dvh;
   }
 
-  .fullfooter{
+  #fullfooter{
     min-height: 20vh !important;
   }
 
-  .fullmain{
+  #fullmain{
     min-height: min(calc(100dvh - 70px - 20vh), calc(100dvh - 70px - 25vmin)) !important;
   }
 
@@ -476,7 +473,7 @@ header{
     min-height: calc(100dvh - 8vw);
   }
 
-  .fullmain{
+  #fullmain{
     min-height: calc(100vh - 8vw) !important;
     min-height: calc(100dvh - 8vw) !important;
   }
@@ -642,7 +639,7 @@ header{
     filter: invert(1) brightness(0.92);
   }
 
-  body{
+  #color{
     background: linear-gradient(45deg, #0c3d74, #000042);
     background-attachment: fixed;
     background-size: cover;
