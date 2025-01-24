@@ -373,19 +373,13 @@ header{
 
 @media only screen and (max-width: 481px){
   main{
-    min-height: min(calc(100dvh - 70px - 20dvh), calc(100dvh - 70px - 25vmin));
+    min-height: min(calc(100vh - 70px - 11.25vh), calc(100vh - 70px - 14.0625vmin));
+    min-height: min(calc(100dvh - 70px - 11.25vh), calc(100dvh - 70px - 14.0625vmin));
   }
 
   footer{
-    min-height: 20dvh;
-  }
-
-  #fullfooter{
-    min-height: 20vh !important;
-  }
-
-  #fullmain{
-    min-height: min(calc(100dvh - 70px - 20vh), calc(100dvh - 70px - 25vmin)) !important;
+    height: 14.0625vmin;
+    min-height: 11.25vh;
   }
 
   nav{
@@ -397,10 +391,14 @@ header{
   }
 
   .videobehind{
+    min-height: min(calc(100vh - 11.25vh), calc(100vh - 14.0625vmin));
+    min-height: min(calc(100dvh - 11.25vh), calc(100dvh - 14.0625vmin));
     background: linear-gradient(180deg, #ffffff, transparent 100%);
     margin: 0px;
     border-radius: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
   }
 
   .title{
@@ -416,8 +414,7 @@ header{
     max-width: calc(100% - 30px);
     background: linear-gradient(180deg, #ffffff, transparent 100%);
     border-radius: 10px 10px 0px 0px;
-    min-height: calc(85vh - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
-    min-height: calc(85dvh - clamp(0px, calc((100vh - 100dvh) / 10), 15px) - 30px - clamp(75px, 21vw, 100px) - 1em - ((100vw / 16) * 9));
+    flex: 1;
   }
 
   video{
@@ -428,6 +425,10 @@ header{
 
   .channel .information{
     background-color: #050505;
+  }
+
+  .channel{
+    margin: 0px;
   }
 }
 
@@ -473,11 +474,6 @@ header{
   .videobehind{
     min-height: 100vh;
     min-height: 100dvh;
-  }
-
-  #fullmain{
-    min-height: calc(100vh - 8vw) !important;
-    min-height: calc(100dvh - 8vw) !important;
   }
 
   .thumbnail{
