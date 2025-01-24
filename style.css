@@ -374,11 +374,21 @@ header{
 @media only screen and (max-width: 481px){
   main{
     min-height: min(calc(100vh - 70px - 11.25vh), calc(100vh - 70px - 14.0625vmin));
-    min-height: min(calc(100dvh - 70px - 11.25vh), calc(100dvh - 70px - 14.0625vmin));
+    min-height: min(calc(100dvh - 70px - 11.25dvh), calc(100dvh - 70px - 14.0625vmin));
   }
 
   footer{
     height: 14.0625vmin;
+    min-height: 11.25vh;
+    min-height: 11.25dvh;
+  }
+
+  .fullmain{
+    min-height: min(calc(100vh - 70px - 11.25vh), calc(100vh - 70px - 14.0625vmin));
+    min-height: min(calc(100dvh - 70px - 11.25vh), calc(100dvh - 70px - 14.0625vmin));
+  }
+
+  .fullfooter{
     min-height: 11.25vh;
   }
 
@@ -392,7 +402,7 @@ header{
 
   .videobehind{
     min-height: min(calc(100vh - 11.25vh), calc(100vh - 14.0625vmin));
-    min-height: min(calc(100dvh - 11.25vh), calc(100dvh - 14.0625vmin));
+    min-height: min(calc(100dvh - 11.25dvh), calc(100dvh - 14.0625vmin));
     background: linear-gradient(180deg, #ffffff, transparent 100%);
     margin: 0px;
     border-radius: 0px;
@@ -467,6 +477,9 @@ header{
     border-radius: 0px;
     background: linear-gradient(90deg, rgba(255 255 255 / 75%), transparent 100%);
     height: 100%;
+  }
+
+  .fullmain{
     min-height: calc(100vh - 8vw);
     min-height: calc(100dvh - 8vw);
   }
