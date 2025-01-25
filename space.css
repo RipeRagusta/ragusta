@@ -1,0 +1,99 @@
+footer{
+	display: none;
+}
+
+body{
+	background-color: black;
+	background: url(space.png);
+	background-position: center;
+  	background-repeat: repeat;
+
+}
+
+.description{
+    background: rgba(33 33 33 / 25%)
+}
+
+main{
+	min-height: calc(100vh - 52px - 2vw);
+	min-height: calc(100dvh - 52px - 2vw);
+	background: linear-gradient(180deg, #212121, rgba(5 5 5 / 50%), transparent 100%);
+}
+
+nav{
+	background: linear-gradient(180deg, #212121, rgba(5 5 5 / 50%), transparent 100%);
+}
+
+.title .name{
+	color: white;
+	
+}
+
+#fadetwo{
+    background: transparent 100%;
+}
+
+#fade{
+	background: transparent 100%;
+}
+
+
+@media only screen and (max-width: 948px){
+	nav{
+		background: white;
+	}
+
+	.channel{
+ 		margin-left: 0px;
+	}
+
+	.title{
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 948px) and (prefers-color-scheme: dark){
+	nav{
+		background: #212121;
+	}
+}
+
+@media only screen and (max-width: 481px){
+	.videobehind{
+		background: transparent 100%;
+	}
+
+	main{
+		min-height: min(calc(100vh - 70px);
+		min-height: min(calc(100dvh - 70px);
+	}
+
+	.fullmain{
+		min-height: min(calc(100vh - 70px);
+		min-height: min(calc(100dvh - 70px);
+	}
+
+	.title{
+		margin-left: 15px;
+	}
+}
+
+
+@media only screen and (max-width: 307px){
+	main{
+		height: 100%;
+  	}
+
+	.fullmain{
+    	min-height: calc(100vh - 8vw);
+   	 	min-height: calc(100dvh - 8vw);
+  	}
+}
+
+@media only screen and (min-width: 2891px){
+	main{
+		min-height: min(calc(100vh - 3.797993774vw), calc(100vh - 3.797993774vw));
+  		min-height: min(calc(100dvh - 3.797993774vw), calc(100dvh - 3.797993774vw));
+  	}
+}
+
