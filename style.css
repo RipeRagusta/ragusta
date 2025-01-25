@@ -110,8 +110,8 @@ footer{
   display: block;
   color: #f1f1f1;
   background-color: #f1f1f1;
-  height: calc(160px + 1vw);
-  width: auto;
+  height: auto;
+  width: calc(160px + 1vw);
 }
 
 .image{
@@ -326,7 +326,6 @@ header{
   
   .hero{
     width: 125px;
-    height: auto;
   }
 
   nav ul{
@@ -716,6 +715,10 @@ header{
     grid-template-columns: repeat(auto-fit, calc((90% - 60px) / 4));
   }
 
+  .hero{
+    width: calc(((90% - 60px) / 4) * 0.6);
+  }
+
   nav a{
     padding: 12.5px;
   }
@@ -724,6 +727,10 @@ header{
 @media only screen and (min-width: 2460px){
   .gallery{
     grid-template-columns: repeat(auto-fit, calc((90% - 80px) / 5));
+  }
+
+  .hero{
+    width: calc(((90% - 80px) / 5) * 0.6);
   }
 
   nav a{
@@ -750,7 +757,7 @@ header{
   }
 
   .hero{
-    height: 6.534071256vw;
+    width: calc(((90% - 3.459010725vw) / 6) * 0.6);
   }
 
   nav{
