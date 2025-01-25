@@ -111,7 +111,7 @@ footer{
   color: #f1f1f1;
   background-color: #f1f1f1;
   height: auto;
-  width: calc(160px + 1vw);
+  width: calc(((90% - 40px) / 3) * 0.5);
 }
 
 .image{
@@ -290,6 +290,10 @@ header{
 @media only screen and (max-width: 1149px){
   .gallery{
     grid-template-columns: repeat(auto-fit, calc((90% - 20px) / 2));
+  }
+
+  .hero{
+    width: calc(((90% - 20px) / 2) * 0.4);
   }
 }
 
