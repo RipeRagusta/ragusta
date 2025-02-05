@@ -8,7 +8,7 @@ html, body{
 }
 
 html{
-  font-size: clamp(0.65vw, calc(0.78em + 0.5vmin), 1.2em);
+  font-size: clamp(0.65vw, calc(0.78rem + 0.5vmin), 1.2rem);
 }
 
 body{
@@ -44,7 +44,7 @@ nav{
 nav ul{
   position: sticky;
   top: 15px;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -298,10 +298,10 @@ header{
 
 @media only screen and (max-width: 948px){
   html{
-    font-size: 1em;
+    font-size: clamp(0.6rem, 3vw, 1rem);
   }
 
-   .container{
+  .container{
     grid-template-columns: 1fr;
     grid-template-areas: "nav" "main";
   }
@@ -328,7 +328,7 @@ header{
   }
   
   .hero{
-    width: 125px;
+    width: calc(((90% - 20px) / 2) * 0.5);
   }
 
   nav ul{
@@ -370,6 +370,10 @@ header{
 @media only screen and (max-width: 611px){
   .gallery{
     grid-template-columns: 90%;
+  }
+
+  .hero{
+    width: clamp(105px, calc(90% * 0.4), 125px);
   }
 }
 
@@ -441,34 +445,6 @@ header{
 
   .channel{
     margin: 0px;
-  }
-}
-
-@media only screen and (max-width: 388px){
-  .hero{
-    width: 115px;
-  }
-
-  #handle{
-    font-size: 0.75em;
-  }
-
-  .information .name{
-    font-size: 1.5em;
-  }
-}
-
-@media only screen and (max-width: 340px){
-  .hero{
-    width: 105px;
-  }
-
-  #handle{
-    font-size: 0.6em;
-  }
-
-  .information .name{
-    font-size: 1.2em;
   }
 }
 
