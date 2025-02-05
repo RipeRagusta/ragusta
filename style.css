@@ -301,6 +301,10 @@ header{
     font-size: clamp(0.6rem, 3.33vw, 1rem);
   }
 
+  .texting, .date, .lines, .videobehind .information{
+    font-size: 1.2rem;
+  }
+
   .container{
     grid-template-columns: 1fr;
     grid-template-areas: "nav" "main";
