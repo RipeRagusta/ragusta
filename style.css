@@ -282,8 +282,8 @@ header{
 }
 
 .icon{
-  width: 0.74em;
-  height: 0.74em;
+  width: 0.74rem;
+  height: 0.74rem;
 }
 
 @media only screen and (max-width: 1149px){
@@ -517,7 +517,7 @@ header{
   }
 
   html{
-    font-size: calc(0.5em + 2vw);
+    font-size: calc(0.5rem + 2vw);
   }
 
   hr{
