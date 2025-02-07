@@ -298,7 +298,7 @@ header{
 
 @media only screen and (max-width: 948px){
   html{
-    font-size: clamp(0.9rem, 0.7966rem + 0.3433vw, 1rem);
+    font-size: clamp(0.9rem, 0.8404rem + 0.2694vw, 1rem);
   }
 
   .container{
@@ -378,10 +378,6 @@ header{
 }
 
 @media only screen and (max-width: 481px){
-  html{
-    font-size: clamp(0.6rem, 0.0659rem + 2.7746vw, 0.9rem);
-  }
-
   .texting, .date, .lines, .videobehind .information{
     font-size: 1.2rem;
   }
@@ -457,6 +453,12 @@ header{
 
   .channel{
     margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  html{
+    font-size: clamp(0.6rem, -0.6616rem + 6.5753vw, 0.9rem);
   }
 }
 
