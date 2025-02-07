@@ -298,11 +298,7 @@ header{
 
 @media only screen and (max-width: 948px){
   html{
-    font-size: clamp(0.6rem, 3.33vw, 0.9rem);
-  }
-
-  .texting, .date, .lines, .videobehind .information{
-    font-size: 1.1rem;
+    font-size: clamp(0.9rem, 0.7966rem + 0.3433vw, 1rem);
   }
 
   .container{
@@ -382,6 +378,18 @@ header{
 }
 
 @media only screen and (max-width: 481px){
+  html{
+    font-size: clamp(0.6rem, 0.0659rem + 2.7746vw, 0.9rem);
+  }
+
+  .texting, .date, .lines, .videobehind .information{
+    font-size: 1.2rem;
+  }
+
+  .title .name{
+    font-size: 2.2rem;
+  }
+
   main{
     min-height: min(calc(100vh - 70px - 11.25vh), calc(100vh - 70px - 14.0625vmin));
     min-height: min(calc(100dvh - 70px - 11.25dvh), calc(100dvh - 70px - 14.0625vmin));
