@@ -8,7 +8,7 @@ html, body{
 }
 
 html{
-  font-size: clamp(0.65vw, 0.7534rem + 0.2472vw, 1.2rem);;
+  font-size: clamp(0.65vw, 0.7534rem + 0.2472vw, 1.2rem);
 }
 
 body{
