@@ -527,7 +527,7 @@ header{
   }
 
   html{
-    font-size: calc(0.5rem + 1.5vw);
+    font-size: calc(0.5rem + 2vw);
   }
 
   .texting, .date, .lines, .videobehind .information{
