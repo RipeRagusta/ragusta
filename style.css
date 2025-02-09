@@ -463,6 +463,7 @@ header{
 
   .title .name{
     font-size: clamp(1.8rem, 1.1516rem + 3.3684vw, 2rem);
+  }
 }
 
 @media only screen and (max-width: 307px){
