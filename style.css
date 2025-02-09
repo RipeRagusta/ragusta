@@ -458,11 +458,11 @@ header{
   }
 
   .texting, .date, .lines, .videobehind .information{
-    font-size: clamp(0.9rem, calc(0.5758rem + 1.6842vw), 1rem);
+    font-size: clamp(0.75rem, -0.0605rem + 4.2105vw, 1rem);
   }
 
   .title .name{
-    font-size: clamp(1.8rem, calc(1.1516rem + 3.3684vw), 2rem);
+    font-size: clamp(1.5rem, -0.1211rem + 8.4211vw, 2rem);
   }
 }
 
