@@ -458,11 +458,11 @@ header{
   }
 
   .texting, .date, .lines, .videobehind .information{
-    font-size: clamp(0.85rem, 0.3637rem + 2.5263vw, 1rem);
+    font-size: clamp(0.9rem, 0.5758rem + 1.6842vw, 1rem);
   }
 
   .title .name{
-    font-size: clamp(1.7rem, 0.7274rem + 5.0526vw, 2rem);
+    font-size: clamp(1.8rem, 1.1516rem + 3.3684vw, 2rem);
 }
 
 @media only screen and (max-width: 307px){
