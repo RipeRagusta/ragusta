@@ -462,7 +462,7 @@ header{
   }
 
   .title .name{
-    font-size: clamp(1.5rem, -0.099rem + 8.3333vw, 2rem);
+    font-size: clamp(1.5rem, calc(8.3333vw - 0.099rem), 2rem);
   }
 }
 
