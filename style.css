@@ -383,14 +383,6 @@ header{
     min-height: min(calc(100dvh - 70px - 11.25dvh), calc(100dvh - 70px - 14.0625vmin));
   }
 
-  .texting, .date, .lines, .videobehind .information{
-    font-size: clamp(0.9rem, calc(0.3833rem + 2.0513vw), 1rem);
-  }
-
-  .title .name{
-    font-size: clamp(1.8rem, calc(0.7667rem + 4.1026vw), 2rem);
-  }
-
   footer{
     height: 14.0625vmin;
     min-height: 11.25vh;
@@ -466,11 +458,11 @@ header{
   }
 
   .texting, .date, .lines, .videobehind .information{
-    font-size: clamp(0.8rem, calc(0.4758rem + 1.6842vw), 0.9rem);
+    font-size: clamp(0.9rem, calc(0.5758rem + 1.6842vw), 1rem);
   }
 
   .title .name{
-    font-size: clamp(1.6rem, calc(0.9516rem + 3.3684vw), 1.8rem);
+    font-size: clamp(1.8rem, calc(1.1516rem + 3.3684vw), 2rem);
   }
 }
 
