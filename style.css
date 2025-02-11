@@ -477,6 +477,10 @@ header{
   .texting, .date, .lines, .videobehind .information{
     font-size: clamp(0.9rem, calc(0.5758rem + 1.6842vw), 1rem);
   }
+
+  #handle{
+    margin-top: clamp(11.25px, calc(3.9474vw - 0.9072px), 15px);
+  }
 }
 
 @media only screen and (max-width: 307px){
