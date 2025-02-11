@@ -328,7 +328,7 @@ header{
   }
   
   .hero{
-    width: max(125px, calc(((90% - 20px) / 2) * 0.4));
+    width: clamp(125px, calc(79.464px + 7.4405vw), 150px);
   }
 
   nav ul{
@@ -370,10 +370,6 @@ header{
 @media only screen and (max-width: 611px){
   .gallery{
     grid-template-columns: 90%;
-  }
-
-  .hero{
-    width: clamp(105px, calc(90% * 0.4), 125px);
   }
 }
 
@@ -446,23 +442,36 @@ header{
   .channel{
     margin: 0px;
   }
+
+  .hero{
+    width: clamp(100px, calc(90% * 0.4), 125px)
+  }
 }
 
 @media only screen and (max-width: 403px){
-  .information .name{
-    font-size: clamp(1.2rem, calc(13.4737vw - 1.3937rem), 2rem);
+  main{
+    padding: clamp(0.9375rem, -0.0757rem + 5.2632vw, 20px);
+  }
+
+  hr{
+    margin-top: clamp(15px, calc(5.2632vw - 1.2112px), 20px);
+    margin-bottom: clamp(15px, calc(5.2632vw - 1.2112px), 20px);
+  }
+
+  .information{
+    margin-left: clamp(15px, calc(5.2632vw - 1.2112px), 20px);
+  }
+
+  .information .name, .title .name{
+    font-size: clamp(1.48rem, calc(8.7579vw - 0.2059rem), 2rem);
   }
 
   .information #handle{
-    font-size: clamp(0.6rem, calc(6.7368vw - 0.6968rem), 1rem);
+    font-size: clamp(0.74rem, calc(4.3789vw - 0.1029rem), 1rem);
   }
 
   .texting, .date, .lines, .videobehind .information{
     font-size: clamp(0.9rem, calc(0.5758rem + 1.6842vw), 1rem);
-  }
-
-  .title .name{
-    font-size: clamp(1.5rem, calc(8.3333vw - 0.099rem), 2rem);
   }
 }
 
