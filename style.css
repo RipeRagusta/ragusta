@@ -450,7 +450,7 @@ header{
 
 @media only screen and (max-width: 403px){
   main{
-    padding: clamp(0.9375rem, -0.0757rem + 5.2632vw, 20px);
+    padding: clamp(15px, calc(5.2632vw - 1.2112px), 20px);
   }
 
   hr{
