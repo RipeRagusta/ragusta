@@ -548,11 +548,11 @@ header{
   }
 
   html{
-    font-size: calc(0.5rem + 2vw);
+    font-size: clamp(0.5rem, calc(0.3rem + 6.4vw), 1rem);
   }
 
   .information .name{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .texting, .date, .lines, .videobehind .information{
@@ -560,7 +560,7 @@ header{
   }
 
   .title .name{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   hr{
