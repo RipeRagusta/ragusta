@@ -462,6 +462,10 @@ header{
     margin-left: clamp(15px, calc(5.2632vw - 1.2112px), 20px);
   }
 
+  .gallery{
+    grid-gap: clamp(15px, calc(5.2632vw - 1.2112px), 20px);
+  }
+
   .information .name, .title .name{
     font-size: clamp(1.48rem, calc(8.7579vw - 0.2059rem), 2rem);
   }
