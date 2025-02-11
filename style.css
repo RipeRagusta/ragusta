@@ -466,11 +466,11 @@ header{
     font-size: clamp(1.48rem, calc(8.7579vw - 0.2059rem), 2rem);
   }
 
-  .information #handle, .information{
+  .information #handle{
     font-size: clamp(0.74rem, calc(4.3789vw - 0.1029rem), 1rem);
   }
 
-  .texting, .date, .lines, .videobehind{
+  .texting, .date, .lines, .videobehind .information{
     font-size: clamp(0.9rem, calc(0.5758rem + 1.6842vw), 1rem);
   }
 }
