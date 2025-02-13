@@ -414,10 +414,6 @@ header{
     font-size: clamp(0.775rem, calc(4vw - 0.0075rem), 1rem);
   }
 
-  .texting, .date, .lines, .videobehind .information{
-    font-size: clamp(0.9rem, calc(0.5522rem + 1.7778vw), 1rem);
-  }
-
   #handle{
     margin-top: clamp(11.25px, calc(4.1667vw - 1.792px), 15px);
   }
@@ -477,10 +473,6 @@ header{
 
   .information .name, .title .name{
     font-size: 1.55rem;
-  }
-
-  .texting, .date, .lines, .videobehind .information{
-    font-size: 1rem;
   }
 
   hr{
