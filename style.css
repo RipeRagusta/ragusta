@@ -400,7 +400,7 @@ header{
 
   .information{
     margin-left: clamp(15px, calc(5.5556vw - 2.3888px), 20px);
-    font-size: clamp(0.92rem, 0.6418rem + 1.4222vw, 1rem);
+    font-size: clamp(0.92rem, calc(0.6418rem + 1.4222vw), 1rem);
   }
 
   .gallery{
