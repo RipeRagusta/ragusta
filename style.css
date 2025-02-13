@@ -627,7 +627,7 @@ header{
   }
 }
 
-@media only screen and (min-width: 2260px){
+@media only screen and (min-width: 2026px){
   .gallery{
     grid-template-columns: repeat(auto-fit, calc((90% - 80px) / 5));
   }
