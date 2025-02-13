@@ -414,6 +414,10 @@ header{
     font-size: clamp(0.775rem, calc(4vw - 0.0075rem), 1rem);
   }
 
+  .information{
+    font-size: clamp(0.92rem, 0.6418rem + 1.4222vw, 1rem);
+  }
+
   #handle{
     margin-top: clamp(11.25px, calc(4.1667vw - 1.792px), 15px);
   }
