@@ -75,6 +75,11 @@ nav a:hover{
   outline: 1px solid #dddddd;
 }
 
+.videosbutton{
+  display: flex;
+  align-items: center;
+}
+
 hr{
   margin: 20px 0px 20px 0px;
   border: none;
@@ -231,8 +236,8 @@ header{
 }
 
 .icon{
-  width: 0.74rem;
-  height: 0.74rem;
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 @media only screen and (max-width: 1149px){
