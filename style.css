@@ -45,6 +45,10 @@ body{
   grid-template-areas: "nav main";
 }
 
+a{
+  display: block;
+}
+
 nav{
   position: relative;
   margin: calc(6px + 1vw) 0px calc(6px + 1vw) calc(6px + 1vw);
