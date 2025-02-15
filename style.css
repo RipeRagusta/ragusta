@@ -134,8 +134,8 @@ footer{
   line-height: 1.15;
 }
 
-.texting:hover, .texting:active{
-  color: #808080;
+.texting:hover, .texting:active, #handle{
+  color: #595959;
 }
 
 .gallery{
@@ -192,7 +192,6 @@ header{
 }
 
 #handle{
-  color: #808080;
   margin: 15px auto 0px auto;
 }
 
@@ -548,7 +547,7 @@ header{
   }
 
   .texting:hover, .texting:active, #handle{
-    color: #999999;
+    color: #ababab;
   }
   
   .description, .image, .hero, nav a:hover{
