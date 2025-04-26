@@ -14,12 +14,12 @@ function preview(number)
 	{
 		if(consitstent == true)
 		{
-			document.getElementById("image-" + number).src = "gif-" + number + ".GIF";
+			document.getElementById("image-" + number).src = "./gif-" + number + ".GIF";
 		}
 	}, 500);
 
 	element.addEventListener('mouseout', () => 
 	{
-		document.getElementById("image-" + number).src = "image-" + number + ".jpg";
+		document.getElementById("image-" + number).src = "./image-" + number + ".jpg";
 	});
 }

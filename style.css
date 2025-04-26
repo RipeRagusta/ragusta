@@ -104,7 +104,7 @@ main{
 }
 
 footer{
-  background-image: url("sand.jpg");
+  background-image: url("./sand.jpg");
   background-position: center;
   background-repeat: repeat;
   height: 25vmin;
