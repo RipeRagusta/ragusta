@@ -110,6 +110,17 @@ footer{
   height: 25vmin;
   overflow: hidden;
   min-height: 20vh;
+  position: relative;
+}
+
+footer::after{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
 }
 
 .hero{
@@ -583,6 +594,10 @@ header{
 
   #fade, #fadetwo{
     background: linear-gradient(180deg, rgba(0 0 0 / 50%), transparent 100%);
+  }
+
+  footer::after{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
   }
 } 
 
