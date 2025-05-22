@@ -120,7 +120,7 @@ footer::after{
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.34), transparent);
 }
 
 .hero{
