@@ -1,5 +1,9 @@
+:root{
+	--pagewidth: 70%;
+}
+
 body{
-	font-family: arial;
+	font-family: arial, sans-serif, serif;
   	min-height: 100dvh;
   	margin: 0px;
   	padding: 0px;
@@ -17,28 +21,71 @@ video{
 	margin: 0px auto;
 	padding: 0px;
 	display: block;
-	width: 70%;
+	width: var(--pagewidth);
 	height: auto;
 	max-height: 100dvh;
 	max-width: 100%;
 	background-color: #000000;
+}
+
+.description{
+	width: var(--pagewidth);
+	margin: 0px auto;
+	margin-top: var(--sizer);
 	margin-bottom: calc(var(--sizer) * 3);
+	background-color: var(--white);
+	color: var(--black);
+	padding: var(--sizer);
+	box-sizing: var(--sizer);
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	font-family: serif, sans-serif, arial;
+}
+
+.about{
+	white-space: pre-wrap;
+}
+
+.date{
+	font-weight: bold;
+	margin-top: var(--sizer);
+	margin-bottom: calc(var(--sizer) / 2);
+}
+
+.solodate{
+	margin-bottom: 0px;
 }
 
 h2{
-	margin: var(--sizer) 0px;
+	font-weight: bold;
+	font-size: clamp(1.5rem, 1.2857rem + 0.5714vw, 2rem);
+	font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 2000px)
 {
-	video{
-		width: 60%;
+	:root{
+		--pagewidth: 60%;
+	}
+}
+
+@media only screen and (max-width: 1066px)
+{
+	:root{
+		--pagewidth: 80%;
 	}
 }
 
 @media only screen and (max-width: 600px)
 {
-	video{
-		width: 100%;
+	:root{
+		--pagewidth: 100%;
+	}
+
+	.description{
+		width: calc(100% - (var(--sizer) * 2));
+		margin: 0px;
+		margin: var(--sizer) var(--sizer) calc(var(--sizer) * 3) var(--sizer);
 	}
 }

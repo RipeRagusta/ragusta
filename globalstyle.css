@@ -5,6 +5,17 @@
   font-style: normal;
 }
 
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, p, pre{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
 a{
 	text-decoration: none;
 	margin: 0px;
@@ -18,10 +29,20 @@ a:visited, a:hover, a:active{
 :root{
 	--sizer: 15px;
 	--sizer: clamp(15px, 0.8036rem + 0.3571vw, 20px);
+  --black: #000000;
+  --white: #e6e6e6;
+}
+
+@media (prefers-color-scheme: dark)
+{
+  :root{
+    --white: #000000;
+    --black: #e6e6e6;
+  }
 }
 
 body{
-	font-family: arial, sans-serif, serif;
+	 font-family: arial, sans-serif, serif;
   	min-height: 100dvh;
   	margin: 0px;
   	padding: 0px;
