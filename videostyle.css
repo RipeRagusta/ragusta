@@ -22,7 +22,7 @@ video{
 	max-height: 100dvh;
 	max-width: 100%;
 	background-color: #000000;
-	margin-bottom: calc(var(--sizer * 3));
+	margin-bottom: calc(var(--sizer) * 3);
 }
 
 h2{
