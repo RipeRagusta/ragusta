@@ -17,18 +17,18 @@ h1, h2, p, pre{
 }
 
 a{
-	text-decoration: none;
-	margin: 0px;
-	display: block;
+  text-decoration: none;
+  margin: 0px;
+  display: block;
 }
 
 a:visited, a:hover, a:active{
-	
+  
 }
 
 :root{
-	--sizer: 15px;
-	--sizer: clamp(15px, 0.8036rem + 0.3571vw, 20px);
+  --sizer: 15px;
+  --sizer: clamp(15px, 0.8036rem + 0.3571vw, 20px);
   --black: #000000;
   --white: #e6e6e6;
 }
@@ -42,18 +42,18 @@ a:visited, a:hover, a:active{
 }
 
 body{
-	 font-family: arial, sans-serif, serif;
-  	min-height: 100dvh;
-  	margin: 0px;
-  	padding: 0px;
-  	position: relative;
-  	display: flex;
-  	flex-direction: column;
+   font-family: arial, sans-serif, serif;
+    min-height: 100dvh;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #1038a7;
 }
 
 body::before{
-	content: "";
+  content: "";
     position: fixed;
     top: -2vmax;
     left: -2vmax;
@@ -67,7 +67,7 @@ body::before{
 }
 
 .goldtext{
-	background-image: url("./assets/images/gold.jpg");
+  background-image: url("./assets/images/gold.jpg");
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -85,6 +85,16 @@ header{
 
 header a{
   margin: calc(var(--sizer) * 3) 0px;
+  transition: transform 0.075s ease;
+}
+
+header a:hover{
+  transform: scale(1.04);
+}
+
+header a:active{
+  transform: scale(1);
+  transition: transform 0.025s ease;
 }
 
 #logo{
