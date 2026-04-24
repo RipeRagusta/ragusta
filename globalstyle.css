@@ -1,0 +1,117 @@
+@font-face{
+  font-family: "Archivo Black";
+  src: url("./assets/fonts/ArchivoBlack-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+	text-decoration: none;
+	margin: 0px;
+	display: block;
+}
+
+a:visited, a:hover, a:active{
+	
+}
+
+:root{
+	--sizer: 15px;
+	--sizer: clamp(15px, 0.8036rem + 0.3571vw, 20px);
+}
+
+body{
+	font-family: arial, sans-serif, serif;
+  	min-height: 100dvh;
+  	margin: 0px;
+  	padding: 0px;
+  	position: relative;
+  	display: flex;
+  	flex-direction: column;
+    background-color: #1038a7;
+}
+
+body::before{
+	content: "";
+    position: fixed;
+    top: -2vmax;
+    left: -2vmax;
+    right: -2vmax;
+    bottom: -2vmax;
+    z-index: -1;
+    background-image: url("./assets/images/6.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(1vmax);
+}
+
+.goldtext{
+	background-image: url("./assets/images/gold.jpg");
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: cover;
+    filter: brightness(80%);
+}
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+header a{
+  margin: calc(var(--sizer) * 3) 0px;
+}
+
+#logo{
+    white-space: nowrap;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-size: 5rem;
+    font-size: clamp(2rem, 0.7143rem + 3.4286vw, 5rem);
+    font-family: "Archivo Black", arial, sans-serif, serif;
+    background-image: url("./assets/images/diamond.jpg");
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: contain;
+}
+
+#logo::before{
+    white-space: nowrap;
+    content: "RAGUSTA.COM";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    font-family: "Archivo Black";
+    width: 100%;
+    height: 100%;
+    -webkit-text-stroke: 6px transparent;
+    -webkit-text-stroke: clamp(0.15rem, 0.0536rem + 0.2571vw, 0.375rem) transparent;
+    background-image: url("./assets/images/gold.jpg");
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+footer{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  background-color: #000000;
+  height: 20px;
+  width: 100%;
+  display: none;
+}
+
+footer small{
+  color: #ffffff;
+}
