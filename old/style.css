@@ -103,7 +103,7 @@ main{
 }
 
 footer{
-  background-image: url("./sand.jpg");
+  background-image: url("../assets/images/sand.jpg");
   background-position: center;
   background-repeat: repeat;
   height: 25vmin;
@@ -468,7 +468,7 @@ header{
     margin: 0px auto 4vw auto;
   }
 
-  footer, #handle, .information #handle, .channel .information{
+  #handle, .information #handle, .channel .information{
     display: none;
   }
 
