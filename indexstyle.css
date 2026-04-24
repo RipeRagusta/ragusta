@@ -43,6 +43,7 @@ pre{
     color:  var(--black);
     padding: calc(var(--sizer) / 2);
     box-sizing: border-box;
+    font-weight: normal;
 }
 
 .imagegallery a{

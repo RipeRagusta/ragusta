@@ -23,3 +23,44 @@ function preview(number)
 		document.getElementById("image-" + number).src = "./assets/images/image-" + number + ".jpg";
 	});
 }
+
+function adjustVolume()
+{
+	let volume = 0.4;
+
+	if(checkStorage())
+	{
+		if((localStorage.getItem("UserVolumePreference")) !== null)
+        {
+            volume = localStorage.getItem("UserVolumePreference");
+        }
+	}
+
+	let video = document.querySelector("video");
+
+	if(video)
+	{
+		video.volume = volume;
+	}
+
+	video.addEventListener("volumechange", () => 
+	{
+        localStorage.setItem('UserVolumePreference', video.volume);
+    });
+}
+
+function checkStorage()
+{
+    var test = "test";
+
+    try 
+    {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+    } 
+    catch(e)
+    {
+        return false;
+    }
+}
