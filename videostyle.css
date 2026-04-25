@@ -47,12 +47,14 @@ video{
 
 .about{
 	white-space: pre-wrap;
+	word-break: break-word;
 }
 
 .date{
 	font-weight: bold;
 	margin-top: var(--sizer);
 	margin-bottom: calc(var(--sizer) / 2);
+	word-break: break-word;
 }
 
 .solodate{
@@ -61,7 +63,8 @@ video{
 
 h2{
 	font-weight: bold;
-	font-size: clamp(1.25rem, 1.1429rem + 0.2857vw, 1.5rem);
+	font-size: clamp(1.25rem, 1.2024rem + 0.2381vw, 1.5rem);
+	word-break: break-word;
 }
 
 @media only screen and (max-width: 2000px)
