@@ -30,7 +30,7 @@ pre{
 }
 
 .imagegallery h2{
-	margin: calc(var(--sizer) / 2) 0px var(--sizer) 0px;
+	margin: 0px 0px var(--sizer) 0px;
 	font-size: 1.25rem;
 	font-size: clamp(1rem, 0.8929rem + 0.2857vw, 1.25rem);
 	font-family: serif, sans-serif, arial;

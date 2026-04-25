@@ -26,7 +26,7 @@ function preview(number)
 
 function adjustVolume()
 {
-	let volume = 0.4;
+	let volume = 0.25;
 
 	if(checkStorage())
 	{
