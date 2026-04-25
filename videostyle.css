@@ -79,10 +79,6 @@ h2{
 	:root{
 		--pagewidth: 80%;
 	}
-
-	.description{
-		flex: 1;
-	}
 }
 
 @media only screen and (max-width: 600px)
