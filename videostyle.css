@@ -95,4 +95,9 @@ h2{
 		width: 100%;
 		margin: 0px;
 	}
+
+	body{
+		padding-bottom: calc(var(--sizer) * 3);
+		box-sizing: border-box;
+	}
 }
