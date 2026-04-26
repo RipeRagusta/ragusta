@@ -5,7 +5,7 @@ function preview(number)
 
 	element = document.getElementById("image-" + number);
 
-	element.addEventListener('mouseout', () => 
+	element.addEventListener("mouseout", () => 
 	{
   		consitstent = false;
 	});
@@ -18,7 +18,7 @@ function preview(number)
 		}
 	}, 500);
 
-	element.addEventListener('mouseout', () => 
+	element.addEventListener("mouseout", () => 
 	{
 		document.getElementById("image-" + number).src = "./assets/images/image-" + number + ".jpg";
 	});
@@ -45,7 +45,10 @@ function adjustVolume()
 
 	video.addEventListener("volumechange", () => 
 	{
-        localStorage.setItem('UserVolumePreference', video.volume);
+		if(checkStorage())
+		{
+	        localStorage.setItem("UserVolumePreference", video.volume);
+	    }
     });
 }
 
