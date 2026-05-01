@@ -50,7 +50,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #1038a7;
+    background-color: #2855bc;
 }
 
 body::before{
