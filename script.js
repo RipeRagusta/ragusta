@@ -32,8 +32,6 @@ function indexInitialize()
 function videoInitalize()
 {
 	adjustVolume();
-	styleInitialize();
-	window.addEventListener("resize", styleInitialize);
 }
 
 function styleInitialize()
