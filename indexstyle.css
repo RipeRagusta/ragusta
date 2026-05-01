@@ -13,10 +13,6 @@ img{
 	display: block;
 }
 
-pre{
-	font-family: arial, sans-serif, serif !important;
-}
-
 .imagegallery{
 	list-style-type: none;
 	display: grid;
@@ -52,12 +48,15 @@ pre{
 	transition: transform 0.075s ease;
 }
 
-.imagegallery a:hover{
-	transform: scale(1.04);
+@media (hover: hover)
+{
+  	.imagegallery a:hover{
+		transform: scale(1.04);
+	}
 }
 
 .imagegallery a:active{
-	transform: scale(1);
+	transform: scale(0.96);
 	transition: transform 0.025s ease;
 }
 

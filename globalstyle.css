@@ -42,8 +42,8 @@ a:visited, a:hover, a:active{
 }
 
 body{
-   font-family: arial, sans-serif, serif;
-   min-height: 100vh;
+     font-family: serif, sans-serif, arial;
+     min-height: 100vh;
     min-height: 100dvh;
     margin: 0px;
     padding: 0px;
@@ -89,12 +89,15 @@ header a{
   transition: transform 0.075s ease;
 }
 
-header a:hover{
-  transform: scale(1.04);
+@media (hover: hover)
+{
+  header a:hover{
+    transform: scale(1.04);
+  }
 }
 
 header a:active{
-  transform: scale(1);
+  transform: scale(0.96);
   transition: transform 0.025s ease;
 }
 
@@ -121,7 +124,7 @@ header a:active{
     left: 0;
     top: 0;
     z-index: -1;
-    font-family: "Archivo Black";
+    font-family: "Archivo Black", arial, sans-serif, serif;
     width: 100%;
     height: 100%;
     -webkit-text-stroke: 6px transparent;
