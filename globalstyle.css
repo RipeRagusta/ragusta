@@ -86,7 +86,7 @@ header{
 
 header a{
   margin: calc(var(--sizer) * 3) 0px;
-  transition: transform 0.075s ease;
+  transition: transform 0.025s ease;
 }
 
 @media (hover: hover)

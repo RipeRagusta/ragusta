@@ -45,7 +45,7 @@ img{
 .imagegallery a{
 	max-width: 100%;
 	min-width: 0;
-	transition: transform 0.075s ease;
+	transition: transform 0.025s ease;
 }
 
 @media (hover: hover)
