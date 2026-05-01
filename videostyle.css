@@ -4,6 +4,7 @@
 
 body{
 	font-family: arial, sans-serif, serif;
+	min-height: 100vh;
   	min-height: 100dvh;
   	margin: 0px;
   	padding: 0px;
@@ -25,8 +26,7 @@ video{
 	display: block;
 	width: var(--pagewidth);
 	height: auto;
-	max-height: 100dvh;
-	max-height: calc(100dvh - (var(--sizer) * 7) - clamp(2rem, 1.4286rem + 2.8571vw, 5rem));
+	max-height: 80vh;
 	max-height: 80dvh;
 	max-width: 100%;
 	min-height: 50px;
