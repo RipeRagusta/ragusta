@@ -24,6 +24,34 @@ function preview(number)
 	});
 }
 
+function indexInitialize()
+{
+	
+}
+
+function videoInitalize()
+{
+	adjustVolume();
+	styleInitialize();
+	window.addEventListener("resize", styleInitialize);
+}
+
+function styleInitialize()
+{
+	let video = document.querySelector("video");
+
+	if(video)
+	{
+		let logo = document.getElementById("logo")
+
+		if(logo)
+		{
+			let logoRect = logo.getBoundingClientRect();
+			video.style.maxHeight = `calc(100svh - (var(--sizer) * 7) - ${logoRect.height}px)`;
+		}
+	}
+}
+
 function adjustVolume()
 {
 	let volume = 0.25;
