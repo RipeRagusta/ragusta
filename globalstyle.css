@@ -166,7 +166,7 @@ footer nav ul{
   margin: 0px auto;
   display: block;
   padding: 0px;
-  padding: calc(var(--sizer) * (3 / 4)) calc(var(--sizer) * (1 / 2));
+  padding: calc(var(--sizer) * (1 / 2)) calc(var(--sizer) * (1 / 2));
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
