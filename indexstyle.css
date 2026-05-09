@@ -1,3 +1,7 @@
+:root{
+	--pagewidth: 85%;
+}
+
 main{
 	padding: 0px 0px calc(var(--sizer) * 2) 0px;
 	width: 100%;
@@ -21,7 +25,7 @@ img{
 	margin-top: var(--sizer);
 	margin-bottom: calc(var(--sizer) * 2);
 	padding: 0px;
-	width: 85%;
+	width: var(--pagewidth);
 	margin: 0px auto;
 }
 
@@ -80,7 +84,10 @@ img{
 {
 	.imagegallery{
 		grid-template-columns: repeat(4, minmax(0, 1fr));
-		width: 75%;
+	}
+
+	:root{
+		--pagewidth: 75%;
 	}
 }
 

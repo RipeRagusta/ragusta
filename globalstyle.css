@@ -10,7 +10,7 @@ html{
   padding: 0px;
 }
 
-h1, h2, p, pre{
+h1, h2, p, pre, small{
   margin: 0px;
   padding: 0px;
   display: block;
@@ -150,12 +150,31 @@ footer{
   margin: 0px;
   padding: 0px;
   display: block;
-  background-color: #000000;
-  height: 20px;
+  background-color: var(--white);
   width: 100%;
-  display: none;
+}
+
+footer nav{
+  max-width: 2000px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  overflow: hidden;
+}
+
+footer nav ul{
+  margin: 0px auto;
+  display: block;
+  padding: 0px;
+  padding: calc(var(--sizer) * (3 / 4)) calc(var(--sizer) * (1 / 2));
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: var(--pagewidth);
+  list-style-type: none;
 }
 
 footer small{
-  color: #ffffff;
+  color: var(--black);
 }
