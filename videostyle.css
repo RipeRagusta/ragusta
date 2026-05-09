@@ -71,7 +71,7 @@ h2{
 }
 
 footer nav ul{
-	padding: calc(var(--sizer) * (1 / 2)) var(--sizer);
+	padding: calc(var(--sizer) * (3 / 4)) var(--sizer);
 	box-sizing: border-box;
 }
 
