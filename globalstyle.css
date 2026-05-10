@@ -152,6 +152,7 @@ footer{
   display: block;
   background-color: var(--white);
   width: 100%;
+  display: none;
 }
 
 footer nav{
