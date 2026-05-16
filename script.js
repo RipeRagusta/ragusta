@@ -24,13 +24,19 @@ function preview(number)
 	});
 }
 
+function globalInitialize()
+{
+	document.body.addEventListener("touchstart", () => {}, { passive: true });
+}
+
 function indexInitialize()
 {
-	
+	globalInitialize();
 }
 
 function videoInitalize()
 {
+	globalInitialize();
 	adjustVolume();
 }
 
@@ -50,7 +56,14 @@ function adjustVolume()
 
 	if(video)
 	{
-		video.volume = volume;
+		try 
+		{
+            video.volume = volume;
+        } 
+        catch(e) 
+        {
+            video.muted = true; 
+        }
 	}
 
 	video.addEventListener("volumechange", () => 
