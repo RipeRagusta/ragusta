@@ -43,12 +43,18 @@ function videoInitalize()
 function adjustVolume()
 {
 	let volume = 0.25;
+	let muted = true;
 
 	if(checkStorage())
 	{
 		if((localStorage.getItem("UserVolumePreference")) !== null)
         {
-            volume = localStorage.getItem("UserVolumePreference");
+            volume = Number(localStorage.getItem("UserVolumePreference"));
+        }
+
+        if((localStorage.getItem("UserMutePreference")) !== null)
+        {
+            muted = JSON.parse(localStorage.getItem("UserMutePreference"));
         }
 	}
 
@@ -62,8 +68,10 @@ function adjustVolume()
         } 
         catch(e) 
         {
-            video.muted = true; 
+            console.log("error setting volume");
         }
+
+        video.muted = muted; 
 	}
 
 	video.addEventListener("volumechange", () => 
@@ -71,6 +79,15 @@ function adjustVolume()
 		if(checkStorage())
 		{
 	        localStorage.setItem("UserVolumePreference", video.volume);
+	    }
+
+	    if(video.muted || video.volume === 0)
+	    {
+	    	localStorage.setItem("UserMutePreference", "true");
+	    }
+	    else
+	    {
+	    	localStorage.setItem("UserMutePreference", "false");
 	    }
     });
 }
