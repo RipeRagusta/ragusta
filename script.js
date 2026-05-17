@@ -57,6 +57,10 @@ function adjustVolume()
             muted = JSON.parse(localStorage.getItem("UserMutePreference"));
         }
 	}
+	else
+	{
+		muted = false;
+	}
 
 	let video = document.querySelector("video");
 
