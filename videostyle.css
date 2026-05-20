@@ -3,7 +3,6 @@
 }
 
 body{
-	font-family: serif, sans-serif, arial;
 	min-height: 100vh;
   	min-height: 100dvh;
   	margin: 0px;
@@ -45,7 +44,6 @@ video{
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	font-family: serif, sans-serif, arial;
 }
 
 .about{
