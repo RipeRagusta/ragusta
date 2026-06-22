@@ -1,6 +1,6 @@
 function preview(number)
 {
-	if(window.matchMedia('(hover: hover)').matches)
+	if(window.matchMedia("(hover: hover)").matches)
 	{
 		let consitstent = false;
 		consitstent = true;
