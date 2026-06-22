@@ -1,16 +1,11 @@
 function preview(number)
 {
-	if(window.matchMedia("(hover: hover)").matches)
+	if(window.matchMedia('(hover: hover)').matches)
 	{
-		var consitstent = false;
+		let consitstent = false;
 		consitstent = true;
 
 		element = document.getElementById("image-" + number);
-
-		element.addEventListener("mouseout", () => 
-		{
-	  		consitstent = false;
-		});
 
 		setTimeout(() => 
 		{
@@ -22,8 +17,9 @@ function preview(number)
 
 		element.addEventListener("mouseout", () => 
 		{
+			consitstent = false;
 			document.getElementById("image-" + number).src = "./assets/images/image-" + number + ".jpg";
-		});
+		}, { once: true });
 	}
 }
 
