@@ -1,27 +1,30 @@
 function preview(number)
 {
-	var consitstent = false;
-	consitstent = true;
-
-	element = document.getElementById("image-" + number);
-
-	element.addEventListener("mouseout", () => 
+	if(window.matchMedia("(hover: hover)").matches)
 	{
-  		consitstent = false;
-	});
+		var consitstent = false;
+		consitstent = true;
 
-	setTimeout(() => 
-	{
-		if(consitstent == true)
+		element = document.getElementById("image-" + number);
+
+		element.addEventListener("mouseout", () => 
 		{
-			document.getElementById("image-" + number).src = "./assets/gifs/gif-" + number + ".GIF";
-		}
-	}, 500);
+	  		consitstent = false;
+		});
 
-	element.addEventListener("mouseout", () => 
-	{
-		document.getElementById("image-" + number).src = "./assets/images/image-" + number + ".jpg";
-	});
+		setTimeout(() => 
+		{
+			if(consitstent == true)
+			{
+				document.getElementById("image-" + number).src = "./assets/gifs/gif-" + number + ".GIF";
+			}
+		}, 500);
+
+		element.addEventListener("mouseout", () => 
+		{
+			document.getElementById("image-" + number).src = "./assets/images/image-" + number + ".jpg";
+		});
+	}
 }
 
 function globalInitialize()
