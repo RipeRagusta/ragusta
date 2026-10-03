@@ -124,6 +124,7 @@ header a{
     background-clip: text;
     color: transparent;
     background-size: contain;
+    letter-spacing: 0.09em;
 }
 
 #logo::before{
@@ -143,6 +144,7 @@ header a{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    letter-spacing: 0.09em;
 }
 
 
