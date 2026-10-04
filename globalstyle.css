@@ -139,7 +139,7 @@ header a{
     height: 100%;
     -webkit-text-stroke: 6px transparent;
     -webkit-text-stroke: clamp(0.15rem, 0.1071rem + 0.2143vw, 0.375rem) transparent;
-    background-image: url("./assets/images/gold.jpg");
+    background-image: url("./assets/images/gold.png");
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
